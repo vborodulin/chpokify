@@ -1,0 +1,1487 @@
+{
+  "formErrors": {
+    "fillAllFields": "Пожалуйста, заполните все поля",
+    "signUp": {
+      "userName": "{{min}}-{{max}} символов без пробелов. Используйте: a-z, A-Z, 0-9, _, -."
+    }
+  },
+  "errors": {
+    "spaceNotFound": "Пространство не найдено"
+  },
+  "common": {
+    "copiedTooltip": "Скопировано!",
+    "beta": "Бета",
+    "betaTooltip": "Free Beta of this feature included in your plan"
+  },
+  "labels": {
+    "you": "Вы",
+    "guest": "Гость"
+  },
+  "notFound": {
+    "title": "Страница не найдена",
+    "description": "Извините, мы не нашли эту страницу",
+    "homeLink": "Домой"
+  },
+  "serviceError": {
+    "title": "Упс, что-то чпокнулось не так :-|",
+    "description": "Пожалуйста, обновите страницу. Если не помогло, напишите нам.",
+    "reloadBtn": "Обновить страницу"
+  },
+  "index": {
+  },
+  "pages": {
+    "index": {
+      "intro": {
+        "title": "Онлайн Покер Планирование",
+        "desc": "Повысьте скорость разработки. Играйте на компьютере и телефоне.",
+        "tryBtn": "Попробовать Chpokify бесплатно"
+      },
+      "collaborate": {
+        "title": "Начните оценивать задачи онлайн",
+        "item1": {
+          "title": "Пространство для любой компании и проекта",
+          "desc": "Как в Слаке, у вас есть отдельное рабочее пространство.",
+          "altImg": "Рабочие пространства"
+        },
+        "item2": {
+          "title": "Команды для всех",
+          "desc": "Приглашайте столько людей и создавайте столько команд, сколько нужно.",
+          "altImg": "Команды"
+        },
+        "item3": {
+          "title": "На любом устройстве – компьютере и телефоне",
+          "desc": "Chpokify доступен на любой платформе с браузером.",
+          "altImg": "Устройства"
+        }
+      },
+      "integrations": {
+        "title": "Подключите все свои любимые сервисы"
+      },
+      "howItWorks": {
+        "title": "Как это работает?",
+        "registerBlock": {
+          "title": "1. Зарегистрируйтесь и получите свое рабочее пространство",
+          "desc": "Когда вы регистрируетесь, мы создаем уютное рабочее пространство для вас и вашей команды. В этом пространстве у вас будет все необходимое для создания задач и их оценки. Вы можете создать столько пространств, сколько необходимо – для каждой компании, для любого проекта",
+          "actionTitle": "Попробовать бесплатно",
+          "altImg": "Регистрация пространства"
+        },
+        "inviteBlock": {
+          "title": "2. Пригласите людей и объединяйте их в команды",
+          "desc": "Приглашайте людей в свое пространство по щелчку пальцев. Больше никаких монотонных регистраций для ваших сотрудников –  мы автоматически зарегистрируем их по вашему приглашению. Вы можете сразу выбрать команду, в которую пригласить нового сотрудника.",
+          "actionTitle": "Создать команду",
+          "altImg": "Создание команды"
+        },
+        "startSessionBlock": {
+          "title": "3. Начните новую сессию и добавьте задачи",
+          "desc": "Создайте покер сессию для вашего очередного спирнта и добавьте соответствующие ему задачи.",
+          "actionTitle": "Начать сессию",
+          "altImg": "Начать сессию"
+        },
+        "voteModerateBlock": {
+          "title": "4. Голосуйте, управляйте",
+          "desc": "Вы полностью управляете процессом. Решайте, когда и какая команда будет голосовать. Получили слишком разные или подозрительные результаты? Обсудите их с командой, сделайте заметки и сбросьте или перезапустите голосование.",
+          "actionTitle": "Стать администратором",
+          "altImg": "Голосуйте и управляйте"
+        },
+        "analyzeBlock": {
+          "title": "5. Подводите итоги и анализируйте",
+          "desc": "Готовы завершить оценку задач спринта? Хорошая работа! Создавайте отчеты о прогрессе команды и смотрите наблюдайте за другой статистикой.",
+          "actionTitle": "Попробовать",
+          "altImg": "Анализируйте"
+        }
+      },
+      "extra": {
+        "title": "Пользовательский интерфейс Chpokify",
+        "darkMode": "Темная тема",
+        "darkModeDesc": "Работаете допоздна? Мы и сами часто это делаем. Поэтому предусмотрели темную тему. Переключайтесь на нее, чтобы снизить нагрузку на глаза во время работы в темное время суток.",
+        "designSystem": "Дизайн система",
+        "designSystemDesc": "Мы совместили привычные и простые формы, ненавязчивые нейтральные цвета и легкость логики работы интерфейса."
+      }
+    },
+    "space": {
+     "title": "Покер планирования"
+    },
+    "retro": {
+      "title": "Ретроспектива",
+      "share": "Пригласить",
+      "retroHeaderActions": {
+        "shareBtn": "Поделиться",
+        "videoCallBtn": "Видеозвонок",
+        "videoOnCall": "В звонке",
+        "actionsBtn": "План действий"
+      },
+      "retroItem": {
+        "people": "Участники",
+        "actions": "Задачи",
+        "cards": "Карточки",
+        "emptyActions": "Добавьте задачи внутри сессии, чтобы сумировать идеи и составить план действий."
+      },
+      "createNewSession": {
+        "title": "Новая сессия",
+        "placeholder": "Пример: Новый спринт – новая жизнь!",
+        "submitBtn": "Создать сессию"
+      },
+      "settingsSidebar": {
+        "votingTitle": "Голосование",
+        "cardsTitle": "Карточки",
+        "settings": "Настройки",
+        "resetAllVotesBtn": "Сбросить все голоса",
+        "removeSessionBtn": "Удалить сессию"
+      },
+      "settingsSidebarEditForm": {
+        "exportCardsAction": {
+          "tooltip": "Выгрузить в CSV"
+        },
+        "isOneVoteCards": {
+          "title": "Один голос для карточки"
+        },
+        "isHiddenVoteCountCards": {
+          "title": "Показать кол-во голосов"
+        },
+        "maxVotes": {
+          "title": "Максимальное кол-во голосов для юзера",
+          "limitTooltip": "Вы достигли лимита голосов."
+        },
+        "isHiddenCards": {
+          "disabled": "Скрывать карточки: Выкл",
+          "enabled": "Скрывать карточки: Вкл",
+          "tooltip": "Если влючено, то карточки скрыты. Только автор видит свои карточки.",
+          "tooltipEnabled": "Карточки скрыты для остальных",
+          "tooltipDisabled": "Карточки видны другим"
+        },
+        "isEnableVoting": {
+          "enabled": "Голосование: Вкл",
+          "disabled": "Голосование: Выкл",
+          "tooltip": "Голосование за карточки"
+        },
+        "canEditCards": {
+          "title": "Только админ изменяет карточки",
+          "enabled": "Редактирование карточек: Включено",
+          "disabled": "Редактирование карточек: Выключено",
+          "tooltip": "Участники могут добавлять и изменять карточки"
+        },
+        "isHiddenUserNameCards": {
+          "title": "Отображать автора карточки"
+        },
+        "isSortByVotesCount": {
+          "title": "Сортировка по кол-ву голосов"
+        },
+        "canMoveCards": {
+          "title": "Только админ двигает карточки"
+        },
+        "isHiddenDescriptionCards": {
+          "title": "Отображать описание"
+        }
+      },
+      "sessionsList": {
+        "title": "Сессии",
+        "loadMoreBtn": "прошлых сессий"
+      },
+      "votesCard": {
+        "voteBtn": "Голосовать",
+        "maxVotes": "Вы использовали все {{maxVotes}} ваши голоса!"
+      },
+      "createNewSessionModal": {
+        "title": "Новая сессия",
+        "cancelBtn": "Отмена",
+        "submitBtn": "Создать сессию"
+      },
+      "createNewColumnModal": {
+        "title": "Новая колонка",
+        "titlePlaceholder": "Введите название колонки",
+        "nameLabel": "Название колонки",
+        "cancelBtn": "Отмена",
+        "submitBtn": "Создать колонку"
+      },
+      "editColumnModal": {
+        "title": "Колонка",
+        "titlePlaceholder": "Введите название колонки",
+        "cancelBtn": "Отмена",
+        "submitBtn": "Сохранить"
+      },
+      "removeColumnModal": {
+        "title": "Удалить колонку?",
+        "cancelBtn": "Отмена",
+        "submitBtn": "Удалить"
+      },
+      "cardMenu": {
+        "makeAction": " Сохранить в план действий",
+        "edit": "Изменить",
+        "delete": "Удалить"
+      },
+      "columnMenu": {
+        "edit": "Изменить",
+        "delete": "Удалить"
+      },
+      "cardCreate": {
+        "titlePlaceholder": "Введите текст карточки",
+        "descriptionPlaceholder": "Введите описание карточки",
+        "cancelBtn": "Отмена",
+        "submitBtn": "Добавить"
+      },
+      "editCardModal": {
+        "title": "Карточка",
+        "titlePlaceholder": "Введите название карточки",
+        "descriptionPlaceholder": "Введите описание карточки (необязательно)",
+        "cancelBtn": "Отмена",
+        "submitBtn": "Сохранить"
+      },
+      "editCardCombinedModal": {
+        "title": "Изменение объединенных карточек",
+        "labelTitle": "Название",
+        "labelDescription": "Описание",
+        "titlePlaceholder": "Введите название карточки",
+        "descriptionPlaceholder": "Введите описание карточки (необязательно)",
+        "promptEdit": "Удаляйте или изменяйте строки, чтобы изменить определенную часть объединенной карточки.",
+        "cancelBtn": "Отмена",
+        "submitBtn": "Сохранить"
+      },
+      "removeCardModal": {
+        "title": "Удалить карточку?",
+        "cancelBtn": "Отмена",
+        "submitBtn": "Удалить"
+      },
+      "editSessionModal": {
+        "title": "Изменить сессию",
+        "cancelBtn": "Отмена",
+        "submitBtn": "Сохранить"
+      },
+      "removeSessionModal": {
+        "title": "Удалить сессию?",
+        "cancelBtn": "Отмена",
+        "submitBtn": "Удалить"
+      },
+      "resetVotesCardsModal": {
+        "title": "Сбросить все голосование ?",
+        "cancelBtn": "Отмена",
+        "submitBtn": "Сбросить"
+      },
+      "sessionMenu": {
+        "edit": "Изменить",
+        "delete": "Удалить"
+      },
+      "retroSessionPeople": {
+        "title": "Участники",
+        "teamsBtn": "Команды",
+        "info": "Поделитесь ссылкой, чтобы пригласить человека в сессию."
+      },
+      "retroSessionEditTeamsModal": {
+        "title": "Выберите команды",
+        "description": "Выберите команды, которые будут участвовать в этой сессии.",
+        "cancelBtn": "Позже",
+        "submitBtn": "Продолжить",
+        "saveBtn": "Сохранить",
+        "teams": "Команды"
+      },
+      "retroSessionEditForm": {
+        "titlePlaceholder": "Название",
+        "descriptionPlaceholder": "Описание",
+        "chooseTemplate": "Выберите технику"
+      },
+      "retroSessionTemplates": {
+        "custom": {
+          "title": "Свой",
+          "description": "Фокус на конкретной теме"
+        },
+        "startStopContinue": {
+          "title": "Начать. Прекратить. Продолжить.",
+          "description": "Взгляд в прошлое и будущее"
+        },
+        "madSadGlad": {
+          "title": "Бесит. Расстраивает. Радует.",
+          "description": "Обсудите, как себя чувствует команда"
+        },
+        "wentWellGoWell": {
+          "title": "Что было хорошо? Что пошло не так?",
+          "description": "Сильные стороны и слабости"
+        }
+      },
+      "retroSession": {
+        "forbidden": {
+          "title": "У вас нет доступа к этой ретро сессии.",
+          "description": "Попросите админа пригласить вас в его рабочее пространство и добавить вас в команду, которая участвует в этой сессии.",
+          "submitBtn": "Домой"
+        },
+        "empty": "Сессия не найдена"
+      },
+      "retroColumnActions": {
+        "title": "Задачи"
+      }
+    },
+    "tasks": {
+      "title": "Все задачи"
+    },
+    "sitemap": {
+      "productTitle": "Продукт",
+      "companyTitle": "Компания",
+      "socialTitle": "Социальные сети",
+      "guidesTitle": "Руководства",
+      "blogTitle": "Блог",
+      "legalTitle": "Юридическая информация",
+      "communityTitle": "Статьи сообщества",
+      "communityAndGeneralTitle": "Статьи сообщества / Общие советы",
+      "communityAndScrumTitle": "Статьи сообщества / Скрам покер",
+      "communityAndPlanningTitle": "Статьи сообщества / Покер планирования",
+      "planningPokerLink": "Покер планирования",
+      "agileEcosystem": "Аджайл Экосистема",
+      "retro": "Ретроспектива",
+      "registrationLink": "Регистрация",
+      "pricesLink": "Цены",
+      "jiraConnectLink": "Интеграция с JIRA",
+      "privacyPolicyLink": "Политика конфиденциальности",
+      "termsOfUseLink": "Правила пользования",
+      "contactsLink": "Контакты",
+      "pressLink": "СМИ",
+      "teamLink": "Команда",
+      "joinLink": "Присоединиться",
+      "missionLink": "Миссия",
+      "discordLink": "Discord",
+      "youtubeLink": "Youtube",
+      "facebookLink": "Facebook",
+      "linkedInLink": "LinkedIn",
+      "planningPokerGuideLink": "Planning poker guide",
+      "saveSprintLink": "How to save time on sprint planning",
+      "200IceLink": "200 icebreakers for your Agile team",
+      "blog": {
+        "article0": "Chpokify Blog",
+        "article1": "About the project approach",
+        "article2": "Advice for novice Scrum masters",
+        "article3": "How to improve your team engagement (guide +template)",
+        "article4": "About planning poker (for the external sources use)",
+        "article5": "Performance Review",
+        "article6": "Why Agile is a mistake. Project Manager's opinion",
+        "article7": "Culture fit and diversity",
+        "article8": "Architectural review of the sprint",
+        "article9": "No rules. Netflix's unique culture",
+        "article10": "The Overview State of Agile from Digital.ai",
+        "article11": "Shared ownership of the code",
+        "article12": "How often do you think about the Tuchman Model?",
+        "article13": "Should a team assign work during sprint planning?",
+        "article14": "Roman Pichler and his Q & A session about product goal in Scrum",
+        "article15": "What does \"task done\" mean? When does the developer's work end?",
+        "article16": "How the retrospective reflects the stage of the team's formation",
+        "article17": "Developer in Discovery: profit for the product",
+        "article18": "Getting a CAPM certificate based on PMBOK 6",
+        "article19": "What can be difficult in the position of an Agile Coach?",
+        "article20": "Developer in Discovery: profit for the developer",
+        "article21": "Development cycle"
+      },
+      "community": {
+        "chpokifyCommunity": "Chpokify Community",
+        "affinityEstimationVsPlanningPoker": "Affinity estimation vs planning poker",
+        "taskPointsVsStoryPoints": "Task points vs story points",
+        "productManagementAdvice": "Product management advice",
+        "benefitsOfScrumPoker": "Benefits of scrum poker",
+        "howToPlayScrumPoker": "How to play scrum poker",
+        "planningPokerScrumMasters": "Planning poker for scrum masters",
+        "scrumPokerOnline": "Scrum poker online",
+        "whatIsScrumPoker": "What is scrum poker",
+        "howToPlayPlanningPoker": "How to play planning poker",
+        "jiraPlanningPoker": "Jira planning poker",
+        "pokerTipsInScrumPlanningPoker": "Poker tips in scrum planning poker",
+        "top5PlanningPokerTools": "Top 5 planning poker tools",
+        "planningPokerEstimation": "What is the planning poker estimation used for",
+        "planningPokerWorks": "Why planning poker works"
+      }
+    }
+  },
+  "header": {
+    "loginBtn": "Вход",
+    "signUpBtn": "Регистрация",
+    "pricing": "Цены",
+    "sponsorship": "Спонсорство",
+    "blog": "Блог"
+  },
+  "comingSoon": "Скоро...",
+  "needConfirmEmail": {
+    "title": "Проверьте вашу почту",
+    "description": "Подтвердите адрес почты, чтобы завершить регистрацию. Если ссылка на почту не пришла, отправьте ее повторно.",
+    "successMessage": "Ссылка для подтверждения отправлена на вашу почту.",
+    "signOutBtn": "Выйти",
+    "resendBtn": "Отправить повторно",
+    "resendWithTimerBtn": "Отправить снова через {{timer}}",
+    "emailResendSuccess": "Подтверждение отправлено на почту."
+  },
+  "confirmEmailSuccess": {
+    "title": "Почта подтверждена!",
+    "description": "Спасибо.",
+    "resumeBtn": "Погнали!"
+  },
+  "confirmEmailFail": {
+    "title": "Подтверждение не удалось.",
+    "description": "Ссылка неверная или истек ее срок действия. Попробуйте заново.",
+    "tryAgainBtn": "Ну давайте попробуем"
+  },
+  "forgotPassword": {
+    "title": "Сброс пароля",
+    "description": "Введите адрес почты, и мы отправим вам ссылку для сброса пароля.",
+    "emailPlaceholder": "Адрес почты",
+    "resetBtn": "Сбросить пароль",
+    "resendWithTimerBtn": "Сбросить через {{timer}}",
+    "logInLink": "Вход",
+    "mailSentMessage": "Ссылка для восстановления пароля отправлена на вашу почту."
+  },
+  "resetPassword": {
+    "title": "Смена пароля",
+    "description": "Введите ваш новый пароль",
+    "passwordPlaceholder": "Новый пароль",
+    "repeatPasswordPlaceholder": "Повторите новый пароль",
+    "logInLink": "Вход",
+    "submitBtn": "Установить пароль"
+  },
+  "joinSession": {
+    "title": "Присоединиться к сессии",
+    "loginOrSignUpBtn": "Вход или регистрация",
+    "joinWithoutRegBtn": "Без регистрации"
+  },
+  "logInGuest": {
+    "title": "Присоединиться к сессии как гость",
+    "emailInput": {
+      "title": "Адрес почты",
+      "placeholder": "Адрес почты",
+      "errorMessage": {
+        "step1": {
+          "title":"Такой адрес уже зарегистрирован. Пожалуйста,"
+        },
+        "step2": {
+          "title":"войдите с паролем"
+        },
+        "step3": {
+          "title":"чтобы присоединиться к сессии."
+        }
+      }
+    },
+    "userNameInput": {
+      "title": "Ваше гостевое имя"
+    },
+    "teamInput": {
+      "title": "Ваша команда"
+    },
+    "submitBtn": "Присоединиться к сессии",
+    "linkBtn": "Вход или регистрация"
+  },
+  "logIn": {
+    "title": "Вход",
+    "titleInvite": "Войдите, чтобы принять приглашение в {{spaceName}}",
+    "descriptionWithLink": "Впервые здесь? <nextLink>Создать бесплатный аккаунт</nextLink>",
+    "emailPlaceholder": "Адрес почты",
+    "passwordPlaceholder": "Пароль",
+    "signUpBtn": "Зарегистрироваться",
+    "dividerOAuth": "ИЛИ",
+    "logInBtn": "Войти",
+    "forgotPasswordLink": "Забыл пароль"
+  },
+  "signUp": {
+    "title": "Создать бесплатный аккаунт",
+    "titleInvite": "Зарегистрируйтесь, чтобы принять приглашение в {{spaceName}}",
+    "descriptionWithLink": "Уже есть аккаунт? <nextLink>Войти</nextLink>",
+    "usernamePlaceholder": "Имя пользователя",
+    "emailPlaceholder": "Адрес почты",
+    "passwordPlaceholder": "Пароль",
+    "repeatPasswordPlaceholder": "Парооль повторно",
+    "logInLink": "Вход",
+    "signUpBtn": "Регистрация",
+    "successMsg": "Аккаунт создан. Пожалуйста, войдите.",
+    "dividerOAuth": "ИЛИ"
+  },
+  "termsOfUse": {
+    "mainMessage": "Регистрируясь, вы соглашаетесь с <termsLink>Правилами сервиса</termsLink> и <privacyLink>Политикой конфиденциальности</privacyLink>."
+  },
+  "spaceButtons": {
+    "inviteToSpaceBtn": {
+      "title": "Пригласить по ссылке",
+      "tooltipTitle": "Ссылка скопирована!"
+    },
+    "createTeam": "Создать команду"
+  },
+  "members": {
+    "title": "Участники",
+    "description": "Приглашайте людей и чпокайте задачи вместе.",
+    "inviteBtn": "Пригласить"
+  },
+  "teams": {
+    "title": "Команды",
+    "description": "Добавляйте участников в команды соответственно структуре вашей компании или проекта.",
+    "currTeamBadge": "Моя",
+    "emptyDescription": "Команд пока нет."
+  },
+  "createNewSession": {
+    "title": "Новая сессия",
+    "sessionTitlePlaceholder": "Пример: Эстимируем только новые фичи",
+    "submitBtn": "Создать сессию"
+  },
+  "createTeamModal": {
+    "title": "Новая команда",
+    "description": "Создайте команду и назначьте ее участников.",
+    "selectMembersLabel": "Участники",
+    "teamNamePlaceholder": "Название",
+    "cancelBtn": "Отмена",
+    "createBtn": "Создать команду"
+  },
+  "editTeamModal": {
+    "title": "Команда",
+    "editTeamModal": "Название",
+    "emptyUsers": "Все участники уже распределены по командам. Пригласите еще людей в пространство или добавьте их из других команд.",
+    "deleteBtn": "Удалить",
+    "cancelBtn": "Отмена",
+    "saveBtn": "Сохранить"
+  },
+  "removeTeamActionModal": {
+    "title": "Удалить команду?",
+    "description": "Все участники останутся в пространстве.",
+    "cancelBtn": "Отмена",
+    "removeBtn": "Удалить"
+  },
+  "teamViewModal": {
+    "title": "{{teamName}}",
+    "description": "Участники",
+    "noMembersDescription": "Участников нет.",
+    "cancelBtn": "Готово"
+  },
+  "inviteToSpaceModal": {
+    "title": "Invite people to space",
+    "description": "Chpokify is free for up to {{freeUsersCount}} users. When {{paidUsersCount}}th user added, you’ll only be charged after {{trialDaysCount}} days free trial.",
+    "dividerLabel": "OR",
+    "sendInviteLinkTitle": "Invite by link",
+    "sendInviteBtn": "Send invite",
+    "sendInviteEmailTitle": "Invite by email",
+    "emailPlaceholder": "Enter email to send the invitation",
+    "showTeamsSwitcherLabel": "Assign invited user to team",
+    "selectTeamPlaceholder": "Select team to assign to",
+    "successEmailSentHelperText": "Invite to {{email}} sent.",
+    "cancelBtn": "Cancel"
+  },
+  "inviteToSpaceAcceptSuccess": {
+    "title": "Привет! Вы приглашены в {{spaceName}}",
+    "titleWithTeam": "Привет! Вы приглашены в {{spaceName}} в команду {{teamName}}",
+    "description": "В вашем рабочем пространстве вы будете оценивать задачи вместе с другими участниками вашей команды.",
+    "acceptBtn": "Принять",
+    "cancelBtn": "Отмена"
+  },
+  "inviteToSpaceAcceptFail": {
+    "title": "Ссылка неверная или истек ее срок действия.",
+    "description": "Пожалуйста, попросите админа выслать вам новое приглашение.",
+    "cancelBtn": "Ок"
+  },
+  "inviteToPokerSessionAcceptFail": {
+    "title": "Ссылка неверная или истек ее срок действия.",
+    "description": "Пожалуйста, попросите админа выслать вам новое приглашение.",
+    "cancelBtn": "Ок"
+  },
+  "userMenu": {
+    "createNewSpaceItem": "Создать новый пространство",
+    "darkThemeItem": "Темная тема",
+    "lightThemeItem": "Светлая тема",
+    "accountSettingsItem": "Настройки аккаунта",
+    "pokerItem": "Покер",
+    "retroItem": "Ретро",
+    "localeItem": "Русский",
+    "kanbanItem": "Доска",
+    "integrationsItem": "Интеграции",
+    "supportItem": "Поддержка",
+    "signOutItem": "Выйти",
+    "spaceAdminLabel": "Вы админ",
+    "toogleAdminGuestTooltip": "Войдите как пользователь, чтобы создать свое пространство",
+    "appStoreItem": "Мобильное приложение"
+  },
+  "createSpace": {
+    "title": "Создать новое пространство",
+    "namePlaceholder": "Название",
+    "cancelBtn": "Отмена",
+    "createSpaceBtn": "Создать пространство"
+  },
+  "spaceMenu": {
+    "editItem": "Изменить",
+    "leaveItem": "Покинуть"
+  },
+  "confirmLeaveSpaceModal": {
+    "title": "Покинуть пространство?",
+    "description": "Вы сможете вернуться в пространство только по приглашению. Если вы последний админ в этом пространстве, то права админа будут переданы случайному участнику в пространстве.",
+    "cancelBtn": "Отмена",
+    "leaveBtn": "Покинуть"
+  },
+  "spaceEditModal": {
+    "title": "Общие",
+    "namePlaceholder": "Название",
+    "cancelBtn": "Отмена",
+    "saveBtn": "Сохранить"
+  },
+  "spaceDonation": {
+    "titleOne": "Donate",
+    "titleTwo": "or sponsor",
+    "description": "Help up to make scrum world better!",
+    "actionBtn": "Make piglet happy"
+  },
+  "spaceStatistics": {
+    "title": "Статистика пространства",
+    "sessionLabel": "Сессии",
+    "storiesLabel": "Задачи",
+    "sessionAverageLabel": "Среднее по сессиям",
+    "storyAverageLabel": "Среднее по задачам"
+  },
+  "spacePokerSessionItem": {
+    "timeStat": "Время",
+    "teamsStat": "Команды",
+    "ratingStat": "Рейтинг",
+    "cardDeck": "Колода",
+    "storiesStat": "Задачи",
+    "scoresStat": "Счет"
+  },
+  "usernameSettings": {
+    "title": "Имя пользователя",
+    "usernamePlaceholder": "Имя",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Сохранить"
+  },
+  "passwordSettings": {
+    "title": "Изменить пароль",
+    "passwordPlaceholder": "Текущий пароль",
+    "newPasswordPlaceholder": "Новый пароль",
+    "repeatNewPasswordPlaceholder": "Повторите новый пароль",
+    "fulfilledDescription": "Пароль успешно изменен!",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Сохранить"
+  },
+  "emailSettings": {
+    "title": "Адрес почты",
+    "emailPlaceholder": "Адрес почты",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Сохранить"
+  },
+  "acceptCookies": {
+    "descriptionPartOne": "Используя наш сайт, вы соглашаетесь с",
+    "descriptionPartTwoLink": "Политикой конфиденциальности",
+    "descriptionPartThree": ". Мы используем Cookies для работы нашего сервиса.",
+    "submitBtn": "Принять"
+  },
+  "agileMeetup": {
+    "description": "Agile Cyprus meetup 4 Марта. Подключайтесь!",
+    "linkBtn": "Узнать больше"
+  },
+  "liveXpEnglish": {
+    "description": "Английский для переезда.",
+    "linkBtn": "Попробовать"
+  },
+  "votingCard": {
+    "titlePass": "Пас",
+    "titleVoting": "Голосует",
+    "titleVoted": "Готов",
+    "notInSession": "Оффлайн"
+  },
+  "spacesList": {
+    "title": "Доступные пространства",
+    "emptyDescription": "Пока нет пространств. Создать?",
+    "submitBtn": "Создать пространство"
+  },
+  "participantEditModal": {
+    "title": "Участник",
+    "teamsLabel": "Состоит в командах",
+    "removeBtn": "Выгнать",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Сохранить",
+    "toggleAdmin": "Admin",
+    "toggleTooltip": "Гостя нельзя сделать админом",
+    "emptyTeams": "Команд пока нет.",
+    "memberTeams": "Состоит в командах"
+  },
+  "participantRemoveModal": {
+    "title": "Выгнать пользователя из пространства?",
+    "description": "Он также будет удален из всех команд, в которых состоит.",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Выгнать"
+  },
+  "pokerSessionsList": {
+    "title": "Сессии покера",
+    "emptyDescription": "Пока нет сессий, в которых вы участвуете."
+  },
+  "pokerSessionMenu": {
+    "edit": "Изменить",
+    "editTeams": "Команды",
+    "remove": "Удалить",
+    "exportCSV": "Экспорт"
+  },
+  "pokerSessionEditForm": {
+    "titlePlaceholder": "Название",
+    "descriptionPlaceholder": "Описание",
+    "teamsDescription": "Выберите команды, которые будут участвовать в этой сессии. Их также можно менять и во время сессии.",
+    "emptyTeamsDescription": "Команд пока нет. Создать?",
+    "settingsTitle": "Настройки",
+    "isAutoRevealLabel": "Автоматически открывать карты, когда все участники проголосовали",
+    "isVideoCallLabel": "Разрешить видеозвонок в этой сессии",
+    "cardDeckLabel": "Колода",
+    "createTeamBtn": "Создать команду"
+  },
+  "pokerSessionCreateModal": {
+    "title": "Новая сессия",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Создать сессию"
+  },
+  "pokerSessionEditModal": {
+    "title": "Изменить сессию",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Сохранить"
+  },
+  "pokerSessionRemoveModal": {
+    "title": "Удалить сессию?",
+    "description": "Сессия будет удалена, но задачи останутся в списке всех задач.",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Удалить"
+  },
+  "pokerSessionTeamsEditForm": {
+    "description": "Выберите команды, которые будут участвовать в этой сессии.",
+    "descriptionEmpty": "Команд пока нет. Создать?"
+  },
+  "pokerSessionTeamsCreateModal": {
+    "title": "Команды",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Готово"
+  },
+  "pokerSessionTeamsViewModal": {
+    "title": "Команды",
+    "description": "Выберите команды, которые будут участвовать в этой сессии.",
+    "submitBtn": "Готово"
+  },
+  "storiesList": {
+    "empty": "Задачи, добавленные в покер планирования, отобразятся здесь."
+  },
+  "pokerSession": {
+    "forbidden": {
+      "title": "У вас нет доступа к этой покер сессии.",
+      "description": "Попросите админа пригласить вас в его рабочее пространство и добавить вас в команду, которая участвует в этой сессии.",
+      "submitBtn": "Домой"
+    },
+    "currentSessionLabel": "Сессия",
+    "totalTimeLabel": "Общее время",
+    "totalScoreLabel": "Общий счет",
+    "linkBtn": "Пригласить",
+    "addStoryBtn": "Добавить задачу",
+    "taskStartBtn": "Начать",
+    "sortTasksHighScoreTooltip": "Сначала максимальный счет",
+    "sortTasksLowScoreTooltip": "Сначала минимальный счет",
+    "storyStopBtn": "Готово",
+    "teamsBtn": "Команды",
+    "revealAllCardsBtn": "Открыть все карты",
+    "revealCardsBtn": "Открыть карты",
+    "resetTaskBtn": "Сбросить задачу",
+    "voteAllBtn": "Голосуют все",
+    "voteAllCancelBtn": "Остановить голосование всем",
+    "voteBtn": "Голосование",
+    "revoteBtn": "Переголосовать",
+    "voteCancelBtn": "Отменить голосование",
+    "currentTaskLabel": "Текущая задача",
+    "taskScoreLabel": "Счет",
+    "tasksLabel": "Задачи",
+    "taskNotSelected": "Задача не выбрана.",
+    "emptyTasksList": "В сессии нет задач.",
+    "emptyTeamsInSession": "No teams in session",
+    "teamsLabel": "Команды",
+    "teamsScoresLabel": "Счет команды",
+    "addTeamsBtn": "Добавить команды",
+    "jira": {
+      "title": "Jira",
+      "errorTitleUp": "Экспорт не удался.",
+      "errorTitleDown": "Но это легко исправить!",
+      "errorContentTxt": "Чтобы отправить счет в Jira, добавьте целевое поле на странице Экраны в Настройках проекта. Воспользуйтесь",
+      "errorContentLink": "инструкцией",
+      "errorHelpTxt": "Если не помогло,",
+      "errorHelpLink": " напишите нам",
+      "errorBtn": "Как исправить?"
+    }
+  },
+  "pokerSessionChooseTeams": {
+    "title": "Команды в сессии",
+    "desc": "Выберите команды, которые будут участвовать в этой сессии. Их также можно менять и во время сессии.",
+    "createBtn": "Создать команду",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Продолжить",
+    "doneBtn": "Готово"
+  },
+  "pokerSessionInvite": {
+    "title": "Участники",
+    "desc": "По этой ссылке ваши коллеги смогут присоединиться к этой покер сессии.",
+    "copyLinkBtn": "Скопировать ссылку",
+    "submitBtn": "Готово",
+    "cancelBtn": "Отмена"
+  },
+  "pokerSessionTeams": {
+    "teamLabel": "Команда",
+    "scoreLabel": "Счет",
+    "totalScore": "Общий счет"
+  },
+  "pokerConfirmRevealModal": {
+    "title": "Открыть карты?",
+    "description": "Не все участники команды “{{teamName}}” проголосовали.",
+    "submitBtn": "Открыть",
+    "cancelBtn": "Отмена"
+  },
+  "pokerSessionStoriesRating": {
+    "title": "Отзывы о сессии",
+    "switcher": "Оценить анонимно",
+    "comment": "Комментарий",
+    "anonymTxt": "Аноним",
+    "resultTxt": "Результат",
+    "cancelBtn": "Пропустить",
+    "submitBtn": "Оценить",
+    "launchRatingBtn": "Запустить оценку",
+    "launchRatingBtnWithTimer": "Запустить снова {{timer}}",
+    "closeBtn": "Закрыть",
+    "commentText": "Что вы думаете об этой сессии?",
+    "ratingText": "Каким было ваше настроение в течение сессии?",
+    "feedBack": "Отзывы",
+    "askToRate": "Оценка сессии",
+    "emptyFeedBackTxt": "Пока нет отзывов.",
+    "infoTxt": "Нажмите “Запустить оценку”, и все участники получат уведомление на оценку сессии."
+  },
+  "pokerSessionStoriesListModal": {
+    "title": "Задачи",
+    "cancelBtn": "Отмена"
+  },
+  "storyEditForm": {
+    "titlePlaceholder": "Задача"
+  },
+  "storiesAddModal": {
+    "tabFreeformInput": "Ручной ввод",
+    "tabImportFromJira": "Импорт из Jira",
+    "tabCreate": "Создать",
+    "tabIntegrations": "Интеграции",
+    "title": "Добавить задачи",
+    "connectedToJira": "Подключите ваш Atlassian Jira проект и импортируйте задачи в один клик",
+    "connectedToJiraBtn": "Подключить Jira",
+    "useJira": "Использовать подключение к Jira",
+    "jiraAccount": "Аккаунт Jira",
+    "jiraProject": "Проект",
+    "goToSettingsSessionsBtn": "К настройкам сессии",
+    "connectedJiraNotUseInSession": "Активируйте подключение к Jira в настройках сессии, чтобы импортировать задачи",
+    "freeformInput": {
+      "description": "Вы можете добавить сразу несколько задач, разместив каждую на отдельной строке. Задачи можно редактировать и во время сессии.",
+      "placeholderMobile": "Вставьте или напишите несколько задач, каждую на новой строке",
+      "placeholder": "Вставьте или напишите несколько задач, каждую на новой строке. Пример:\nЗадача 1\nЗадача 2\nЗадача 3\n",
+      "cancelBtn": "Отмена",
+      "submitBtn": "Добавить"
+    }
+  },
+  "storiesIntegrationImport": {
+    "description": "Задачи можно редактировать в любое время.",
+    "systemLabel": "Выберите систему",
+    "domainLabel": "Выберите аккаунт Jira",
+    "projectLabel": "Выберите проект",
+    "selectJiraField": "Выберите целевое поле в Jira, в которое счет будет экспортирован из Chpokify",
+    "jqlLabel": "Вставьте или введите JQL-запрос",
+    "useDifferentProject": "Импорт не удается, так как выбран другой проект. Выберите целевой проект в настройках сессии и попробуйте снова.",
+    "useEmptyProject": "Пожалуйста, укажите проект в вашем JQL-запросе.",
+    "jqlPlaceholder": "Пример: project = CHPOK AND Sprint = 1",
+    "jqlEmptyHint": "Оставьте пустым, чтобы импортировать 50 последних задач из бэклога.",
+    "backlogItem": "Бэклог (первые 200 задач)",
+    "getStartedJql": "Узнать больше о JQL-запросе",
+    "connectJira": "Как  подключить Jira?",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Импортировать"
+  },
+  "jiraAddFieldToScreen": {
+    "title": "Как добавить пользовательское поле на Экран проекта в Jira?",
+    "aboutAddJira": "Чтобы отправить счет в Jira, добавьте целевое поле на странице Экраны в Настройках проекта. Воспользуйтесь инструкцией. Если не помогло, ",
+    "aboutAddJiraBtn": "напишите нам",
+    "step1": {
+      "title":"1. Нажмите Настройки > “Задачи”."
+    },
+    "step2": {
+      "title": "2. Под “ПОЛЯ” нажмите “Пользовательские поля”."
+    },
+    "step3": {
+      "title": "3. Найдите пользовательское поле и нажмите “Связать с Экранами”.",
+      "alternatively": "3.1 Вы так же можете нажать контесткную ссылку поля и затем нажать “Экраны” > “Связать это поле с Экранами”."
+    },
+    "step4": {
+      "title": "4. Проверьте, на на каких экранах нужно отобразить это поле, и нажмите “Обновить”."
+    },
+    "successDone": "Когда все будет готово, экспорт в Jira должен заработать корректно. Если это не помогло,"
+  },
+  "cardDecks": {
+    "title": "Колоды карт",
+    "defaultDecks": "Системные колоды",
+    "customDecks": "Свои колоды",
+    "createCustomDecksBtn": "Создать свою колоду",
+    "editCustomDecksBtn": "Изменить колоду",
+    "editModal": {
+      "title": "Изменить колоду",
+      "saveBtn": "Сохранить",
+      "cancelBtn": "Отмена"
+    },
+    "createModal": {
+      "title": "Создать свою колоду",
+      "enableLableText": "Введите название карты, а затем соответствующее ей значение.",
+      "inputTitle": "Название колоды",
+      "label": "Название карты",
+      "value": "Значение карты",
+      "addCardInputBtn": "Добавить карту",
+      "createBtn": "Создать",
+      "cancelBtn": "Отмена",
+      "tooltip": "Назовите колоду, назовите карты и добавьте им значения"
+    },
+    "deleteModal": {
+      "title": "Удалить колоду?",
+      "submitBtn": "Удалить",
+      "cancelBtn": "Отмена"
+    }
+  },
+  "integrations": {
+    "jira": "Jira"
+  },
+  "pokerSessionStoryCreateModal": {
+    "title": "Создать задачу",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Создать задачу"
+  },
+  "pokerSessionStoryEditModal": {
+    "title": "Изменить задачу",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Сохранить",
+    "removeBtn": "Удалить"
+  },
+  "pokerSessionStoryRemoveModal": {
+    "title": "Удалить задачу",
+    "description": "Удалить задачу? Это может отразиться на статистике пространства.",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Удалить"
+  },
+  "pokerSessionTeam": {
+    "emptyDescription": "Выберите команды, которые будут участвовать в этой сессии."
+  },
+  "footer": {
+    "description": "Scrum инструменты управления для agile команд.",
+    "allRights": "© {{year}} Chpokify. Scrum инструменты управления для agile команд. Для удаленных и гибридных команд. Все права защищены.",
+    "planningPoker": "Покер планирования",
+    "howToPlayPokerLik": "Как использовать методологию Покер планирования?",
+    "whatChpokifyLink": "Что такое Chpokify?",
+    "productTitle": "Продукт",
+    "pricesLink": "Цены",
+    "sitemapLink": "Карта сайта",
+    "helpTitle": "Помощь",
+    "supportLink": "Поддержка",
+    "contactUsLink": "Связаться",
+    "eventsLink": "События",
+    "reportBugLink": " Сообщить об ошибке",
+    "leaveFeedbackLink": "Оставить обратную связь",
+    "privacyPolicyLink": "Политика конфиденциальности",
+    "donateLink": "Donate",
+    "resourcesTitle": "Полезные материалы",
+    "blogLink": "Блог",
+    "communityLink": "Сообщество",
+    "howToConnectJiraLink": "Как подключить Jira?",
+    "saveTimeOfEstimationsLink": "Покер планирования",
+    "retroLink": "Ретроспектива",
+    "agileEcosystemLink": "Аджайл Экосистема",
+    "companyTitle": "Компания",
+    "pressLink": "СМИ",
+    "teamLink": "Команда",
+    "joinLink": "Присоединиться",
+    "integrationsLink": "Интеграции",
+    "purposeLink": "Миссия",
+    "icebreakerQuestionsLink": "200 вопросов для разогрева",
+    "termsOfUseLink": "Правила пользования"
+  },
+  "pokerUserCard": {
+    "userOffline": "Пользователь не в сессии"
+  },
+  "sponsorship": {
+    "donate": {
+      "title": "Donate",
+      "description": "You can support Chpokify by donating any amount of money. Please choose the suiting method below.",
+      "paypalBtn": "PayPal",
+      "revolutBtn": "Revolut"
+    },
+    "sponsor": {
+      "title": "Sponsorship",
+      "description": "We are also looking for sponsor. Please contact us via email.",
+      "sendEmailBtn": "Send email"
+    }
+  },
+  "addToHomeScreen": {
+    "title": "Быстрый доступ к Chpokify –\nдобавьте ярлык на рабочий стол",
+    "cancelBtn": "Позже",
+    "submitBtn": "Добавить ярлык"
+  },
+  "freeBetaAccessPricing": {
+    "title": "Free Beta Access",
+    "planBadge": "your current plan",
+    "availableUntil": "Available until release. Then you’ll be switched to Small team plan.",
+    "pokerModuleName": "Scrum poker",
+    "unlimitedSeatsCondition": "Unlimited seats",
+    "unlimitedTeamsCondition": "Unlimited teams",
+    "seatPerMonth": "seat/month",
+    "signUpBtn": "Create a Free Account"
+  },
+  "pricing": {
+    "title": "Цены",
+    "lifeTime": "Пожизненная скидка",
+    "lifeTimeSale": "50%",
+    "descriptionSale": "Подпишись сейчас и получи скидку навсегда",
+    "pricingValue": "<priceOld/><priceNew/>"
+  },
+  "sitemap": {
+    "title": "Карта сайта"
+  },
+  "accountSettings": {
+    "title": "Настройки аккаунта"
+  },
+  "paymentsBtns": {
+    "donate": "Donate"
+  },
+  "topDonors": {
+    "title": "Top donations",
+    "description": "Reach the top of the leaderboard!"
+  },
+  "userWelcome": {
+    "title": "Добро пожаловать в Chpokify!",
+    "player": {
+      "title": "Вы игрок?",
+      "description": "Запросите у администратора ссылку-приглашение для участия в оценке задач."
+    },
+    "moderator": {
+      "title": "Вы администратор?",
+      "description": "Создайте свое пространство, пригласите команду и приступайте к оценке задач!"
+    }
+  },
+  "spaceCreateBtn": {
+    "title": "Создать пространство"
+  },
+  "googleAuthBtn": {
+    "logIn": {
+      "title": "Продолжить с Google"
+    },
+    "signUp": {
+      "title": "Продолжить с Google"
+    },
+    "cookieNotEnabledError": "Чтобы войти с Google, покиньте режим инкогнито, отключите блокираторы рекламы и сторонние файлы cookies в вашем браузере."
+  },
+  "appleAuthBtn": {
+    "logIn": {
+      "title": "Продолжить с Apple"
+    },
+    "signUp": {
+      "title": "Продолжить с Apple"
+    }
+  },
+  "kanbanThumb": {
+    "title": "Kanban board is in development",
+    "description": "We appreciate your interest to our new module, and we’re sure that you’ll have fun when its released!\n\nYou can support us while waiting."
+  },
+  "retroThumb": {
+    "title": "Retro is in development",
+    "description": "We appreciate your interest to our new module, and we’re sure that you’ll have fun when its released!\n\nYou can support us while waiting."
+  },
+  "spaceOnboarding": {
+    "menuItem": "Tutorial",
+    "step": [
+      {
+        "content": "🎉 Welcome to your freshly made space! Please allow to demonstrate what you can do here. You can skip tutorial any time and get back to it later (or never). \uD83D\uDE80 Get started!\n"
+      },
+      {
+        "content": "Here you see all the people in your space. It's only you here. Feeling \uD83D\uDE25 lonely?\n"
+      },
+      {
+        "content": "Let's invite someone! Click the button to send invites.\n"
+      },
+      {
+        "content": "Invite people via email or by sending them an invite link. Fun fact: invite via email is the easiest way for people to join since they only need to create password for their account. Alright, send a link or email invitation to your teammates. ✉️"
+      },
+      {
+        "content": "Here you see all the teams in your space. ⛹️ Teams is the best way to organise people. For example, you can create teams according to your company structure: Front-end, Back-end, QA, etc."
+      },
+      {
+        "content": "Okay, it's time for a new team! Click the button to create one.\n"
+      },
+      {
+        "content": "Create first team. Name your team and assign people to it. Assign yourself if you're going to vote along with the others. As an \uD83D\uDC51 administrator, you can spectate and manage any session without being a part of a team. Members can play only when they are part of a team.\n"
+      },
+      {
+        "content": "Click on the team to edit it and re-assign people any time. Even during a poker session.\n"
+      },
+      {
+        "content": "\uD83D\uDD79️ Ready to play? Click the button to create a new session. \n"
+      },
+      {
+        "content": "Name your session (or don't) and add description if needed.\n"
+      },
+      {
+        "content": "Teams are essential to play poker. Select those that will participate in the session."
+      }
+    ]
+  },
+  "pokerCardStsDefault": {
+    "fibonacci": {
+      "name": "Фибоначчи"
+    },
+    "tShirts": {
+      "name": "Майки"
+    },
+    "modifiedFibonacci": {
+      "name": "Измененный Фибоначчи"
+    },
+    "linear": {
+      "name": "Линйный"
+    },
+    "progression": {
+      "name": "Прогрессия"
+    },
+    "precision": {
+      "name": "Точность"
+    },
+    "idealDays": {
+      "name": "Идеальные дни"
+    }
+  },
+  "integrationsSpacePromo": {
+    "intergationsList": {
+      "title": "Текущие интеграции",
+      "requestBtn": "Запросить интеграцию"
+    },
+    "title": "Интеграции",
+    "description": "Импортируйте и экспортируйте задачи из других сервисов в Chpokify.",
+    "jiraBtn": "Atlassian Jira",
+    "slackBtn": "Slack"
+  },
+  "jiraIntegration": {
+    "title": "Как подключить Jira к Chpokify?",
+    "videoTitle": "Как подключить Jira к Chpokify?",
+    "teamAssist": {
+      "one": "Наша команда с радостью поможет вам настроить подключение к Jira. ",
+      "link": "Напишите нам,",
+      "two": " чтобы договориться о видеозвонке (по кипрскому времени)."
+    },
+    "contactAdministrator": "You will need to contact or be an administrator of your JIRA system in order to complete this integration. If you are not an administrator of your JIRA instance you can share the values and the instructions below. Remember to add your JIRA URL at the bottom of this page to link the account once you have completed the setup in JIRA.",
+    "step1": {
+      "title": "1. Create and set up JIRA application link",
+      "adminSettings": "1.1 As JIRA administrator, go to “Settings”, then “Application links”.",
+      "enterUrl": "1.2 Enter the Application URL then press “Create new link”.",
+      "pressContinue": "1.3 In the “Configure Application URL” modal window just press “Continue”.",
+      "fillNameNadType": "1.4 In the “Link applications” modal window copy and paste Chpokify to Application Name and choose Generic Application (usually selected by default), and then press “Continue”.",
+      "hint": "There will be other fields on this form in JIRA but ignore those for now.",
+      "applicationUrl": "Application URL",
+      "applicationName": "Application Name",
+      "applicationType": "Application Type"
+    },
+    "step2": {
+      "title": "2. Incoming authentications settings",
+      "clickPencil": "2.1 After completeing the first step, you’ll see the “Chpokify” line appeared in the table. Click pencil icon on the right.",
+      "configure": "2.2 In the “Configure Chpokify” modal window select “Incoming Authentication” and copy and paste all the settings below, and then press “Save”. Keep in mind that this modal window has many options, so you have to scroll down to see them.",
+      "consumerKey": "Consumer Key",
+      "consumerName": "Consumer Name",
+      "publicKey": "Public Key",
+      "consumerCallbackUrl": "Consumer Callback URL"
+    },
+    "step3": {
+      "title": "3. Link JIRA to Chpokify",
+      "description": "Paste your JIRA URL (ex: https://myaccount.atlassian.net) and finally press “Link”.",
+      "linkPlaceholder": "Required",
+      "linkBtn": "Link JIRA to Chpokify"
+    },
+    "existingIntegrations": {
+      "title": "Existing JIRA Integrations",
+      "removeBtn": "Remove",
+      "refreshBtn": "Refresh",
+      "refreshNowBtn": "Refresh now",
+      "noContent": "You have no jira integrations yet."
+    }
+  },
+  "jiraCallback": {
+    "success": {
+      "title": "JIRA successfully connected!",
+      "description": "Page will be closed after {{seconds}} seconds..."
+    },
+    "fail": {
+      "description": "Page will be closed after {{seconds}} seconds..."
+    }
+  },
+  "pokerVotingScoresBanner": {
+    "title": "Ваша карта",
+    "emptyCard": "—",
+    "changeCardBtn": "Изменить"
+  },
+  "fileDownloaded": "Файл скачан!",
+  "sponsorshipPage": {
+    "title": "Donation and sponsorship"
+  },
+  "privacyPolicyPage": {
+    "title": "Политика конфиденциальности"
+  },
+  "pokerExportCSVBtn": {
+    "title": "Скачать"
+  },
+  "sentryDebugPage": {
+    "title": "Sentry debug page"
+  },
+  "kanbanColumnAdd": {
+    "title": "Добавить колонку"
+  },
+  "kanbanTask": {
+    "addedBy": "Автор"
+  },
+  "taskMenu": {
+    "editItem": "Изменить задачу",
+    "removeItem": "Удалить задачу"
+  },
+  "columnMenu": {
+    "editItem": "Изменить колонку",
+    "removeItem": "Удалить колонку"
+  },
+  "kanbanColumnAddModal": {
+    "title": "Добавить колонку",
+    "nameLabel": "Название",
+    "namePlaceholder": "Например: Сделать, В процессе, Готово",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Добавить колонку"
+  },
+  "kanbanTaskCreate": {
+    "cancelBtn": "Отмена",
+    "submitBtn": "Создать задачу",
+    "titlePlaceholder": "Введите название задачи"
+  },
+  "paymentSettings": {
+    "title": "Billing",
+    "emptyDescription": "You have no any subscriptions or payments.",
+    "description": "Go to customer portal to manage your subscription and billing functionality."
+  },
+  "customerPortalBtn": {
+    "title": "Manage subscription"
+  },
+  "kanbanBoardCreateModal": {
+    "title": "Создать новую доску",
+    "description": "Доска поможет вам поддерживать прозрачность в процессе разрабокти и придерживаться сроков. С помощью доски вы можете создавать задачи и следите за их выполнением.",
+    "cancelBtn": "Отмена",
+    "submitBtn": "Создать"
+  },
+  "kanbanBoardForm": {
+    "nameField": {
+      "label": "Название доски",
+      "placeholder": "Введите название доски"
+    },
+    "descriptionField": {
+      "label": "Описание"
+    }
+  },
+  "storiesMenuItem": {
+    "title": "Задачи"
+  },
+  "storiesListFilter": {
+    "newIssueBtn": "Новая задача",
+    "allLabel": "Все"
+  },
+  "sideBarCollapse": {
+    "title": "Свернуть меню"
+  },
+  "sideBarClose": {
+    "title": "Закрыть меню"
+  },
+  "sideBarKanban": {
+    "title": "Доска"
+  },
+  "sideBarPoker": {
+    "title": "Покер"
+  },
+  "sideBarRetro": {
+    "title": "Ретроспектива"
+  },
+  "sideBarTask": {
+    "title": "Задачи"
+  },
+  "sideBarFaq": {
+    "title": "Вопросы и ответы"
+  },
+  "sideBarIntegrations": {
+    "title": "Интеграции"
+  },
+  "sideBarSettings": {
+    "title": "Настройки пространства"
+  },
+  "sideBarTutorial": {
+    "title": "Тур"
+  },
+  "spacesListMenuWithBtn": {
+    "title": "Пространства"
+  },
+  "spaceSettingsLeave": {
+    "description": "Название пространства"
+  },
+  "spaceSettingsPage": {
+    "titleSettings": "Настройки пространства"
+  },
+  "spaceSettingsDangerZone": {
+    "title": "Покинуть пространство",
+    "description": "После выхода из пространства вы сможете вернуться в него только по приглашению. Если вы единственный администратор в этом пространстве, администраторские права будут переданы случайному участнику.",
+    "leaveBtn": "Покинуть пространство"
+  },
+  "paymentSubscription": {
+    "addressForInvoices": "Address for invoices",
+    "members": "Members",
+    "paymentPerUser": "Payment per user",
+    "created": "Created",
+    "interval": "Interval",
+    "status": "Subscription status",
+    "trialing": "Trial ends {{in}}"
+  },
+  "paymentEncrypted": {
+    "description": "Данные зашифрованы и безопасно обрабатываются компанией Stripe"
+  },
+  "paymentRequiredModal": {
+    "title": "Your team has grown!",
+    "description": "Upgrade and continue rocking!",
+    "hint": "Chpokify is free for up to {{freeUsersCount}} users. When {{paidUsersCount}}th user added, you’ll only be charged after {{trialDaysCount}} days free trial.",
+    "cancelBtn": "Not now",
+    "submitBtn": "Continue"
+  },
+  "paymentMembersPrice": {
+    "members": "{{count}} members",
+    "freeTrial": "{{count}} days free trial",
+    "perUser": "per user\n/ month"
+  },
+  "paymentSuccess": {
+    "title": "Plan upgraded!",
+    "description": "Thank you, {{username}}.",
+    "submitBtn": "Go to dashboard"
+  },
+  "pricingPlan": {
+    "title": "План",
+    "yourPlan": "Ваш план",
+    "yourCurrentPlan": "Ваш текущий план",
+    "createFreeAccountBtn": "Начать бесплатно",
+    "startFreeTrialBtn": "Попробовать бесплатно",
+    "manageSubscription": "Параметры подписки",
+    "updateBillingInfo": "Платежная информация",
+    "updatePaymentMethod": "Изменить метод оплаты",
+    "trustedByTheBest": "Нам доверяют",
+    "trustedByTheBestImgAlt": "Наши клиенты",
+    "cancelSubscription": "Отменить подписку",
+    "getInTouchBtn": "Связаться",
+    "downgrade": "Понизить план",
+    "upgrade": "Улучшить",
+    "getInTouchText": "Свяжитесь с нами",
+    "subscribe": "Подписаться",
+    "haveEnterprise": "I have 20+ teammates",
+    "customPricing": "Custom pricing",
+    "customIntegrations": "Интеграции по запросу",
+    "customFeatures": "Функции по запросу",
+    "hint": "Chpokify is free for up to {{freeUsersCount}} users. When {{paidUsersCount}}th user added, you’ll only be charged after {{trialDaysCount}} days free trial.",
+    "switcher": {
+      "month": "Ежемесячно",
+      "year": "Ежегодно",
+      "extraSale": "<extraSaleTxt>(Дополнительно</extraSaleTxt><extraSale>20%</extraSale><extraSaleTxt>включены)</extraSaleTxt>"
+    },
+    "unlimited": "Неограниченные",
+    "players": "игроки",
+    "teams": "команды",
+    "perMonth": "в месяц",
+    "perYear": "в год",
+    "priceYear": "<helperText>в месяц,</helperText><basePrice>${{basePrice}}</basePrice><helperText>${{newPrice}} в год</helperText>",
+    "basicFree": "Базовый – Бесплатно",
+    "featuresTitle": "Функции",
+    "features": {
+      "basicPlan": "Все функции плана Базовый",
+      "jiraIntegration": "Интеграция с Jira",
+      "retroIntegration": "Интеграция с Chpokify Retro",
+      "videoCalls": "Видеозвонки",
+      "multiTeamsVoting": "Командное голосование",
+      "multiTeamsPlayers": "Гибкое распределение игроков",
+      "multiAdminsMode": "Совместное управление сессией",
+      "customCardDecks": "Пользовательские колоды",
+      "supportPriority": "Приоритет поддержки",
+      "unlimitedUsers": "Неограниченные пользователи",
+      "unlimitedTeams": "Неограниченные команды",
+      "personalCareAgent": "Персональный агент поддержки",
+      "serverBasedSolution": "Server-based solution",
+      "customFeatures": "Функции на заказ",
+      "customIntegrations": "Интеграции на заказ",
+      "sevenCardDecks": "7 колод",
+      "guestMode": "Гостевой режим",
+      "editTeamScore": "Управление результатами команд",
+      "unlimitedSessions": "Неограниченные сессии",
+      "spaceStatistic": "Статистика пространства",
+      "editSessionScore": "Управление результатами сессии"
+    },
+    "help": {
+      "textUp": "Ищете что-то другое?",
+      "textDown": "Мы открыты к вашим предложениям."
+    },
+    "planPeriodEnd": "{{plan}} пробный период заканчивается {{in}}",
+    "upgradePlan": {
+      "title": "Перейдите на {{plan}} план и получите досутп к этой и другим функциям"
+    },
+    "downGradeModal": {
+      "title": "Понизить план?",
+      "cancelBtn": "Отмена",
+      "submitBtn": "Понизить"
+    },
+    "cancelSubscriptionModal": {
+      "title": "Нам очень жаль, что вы уходите",
+      "ratingText": "Оцените, на сколько вы удовлетворены продуктом в целом?",
+      "commentText": "Если хотите добвить что-то еще, напишите комментарий:",
+      "causeText": "Пожалуйста, поделитесь, почему вы решили отменить вашу подписку?",
+      "cancelBtn": "Отмена",
+      "submitBtn": "Продолжить",
+      "causes": {
+        "first": "Очень дорогой продукт",
+        "second": "Продукт работал некорректно",
+        "third": "Отсутствуют необходимые мне функции (напишу в комментарии ниже, какие)"
+      }
+    }
+  },
+  "termsPage": {
+    "title": "Условия и положения"
+  },
+  "trialLabel": {
+    "title": "{{daysCount}} дней пробный период"
+  },
+  "pricingPlanSmallTeam": {
+    "price": "Free",
+    "title": "Small Team up to {{count}} users"
+  },
+  "pricingPlanBusiness": {
+    "title": "Business {{count}}+ users",
+    "perUserPerMonth": "per user\n/ month"
+  },
+  "pricingPlanEnterprise": {
+    "title": "Enterprise {{count}}+ users",
+    "perMonth": "/ month",
+    "customPrice": "Custom"
+  },
+  "paymentFree": {
+    "members": "Members",
+    "monthlyPayment": "Monthly payment",
+    "description": "Chpokify is free for up to {{freeUsersCount}} users. When {{paidUsersCount}}th user added, you’ll only be charged after {{trialDaysCount}} days free trial.",
+    "upgradeBtn": "Upgrade",
+    "paymentPerUser": "Payment per user",
+    "freeStatus": "Free up to {{freeUsersCount}} members",
+    "unlockUnlimitedSeatsBtn": "Unlock unlimited seats"
+  },
+  "checkoutBtn": {
+    "title": "Checkout"
+  },
+  "subscriptionProblemModal": {
+    "title": "Check your subscription",
+    "description": "Something suspended your subscription, please review",
+    "usersCount": "{{usersCount}} users",
+    "sessionCount": "{{sessionsCount}} sessions",
+    "storiesCount": "{{storiesCount}} tasks",
+    "continueBtn": "Continue",
+    "cancelBtn": "Not now"
+  },
+  "paymentStatusBtn": {
+    "subscriptionRequired": "Subscription needs action",
+    "subscriptionProblem": "Subscription needs action",
+    "upgrade": "Upgrade",
+    "trial": "Trial ends {{in}}"
+  },
+  "pokerJoinCallBtn": {
+    "joinCall": "Видеозвонок",
+    "onCall": "В звонке"
+  },
+  "pokerVideoCall": {
+    "title": "Видеозвонок"
+  },
+  "contactSalesBtn": {
+    "title": "Связаться"
+  },
+  "dataEncrypted": {
+    "description": "Ваши данные зашифрованы и надежно защищены"
+  }
+}

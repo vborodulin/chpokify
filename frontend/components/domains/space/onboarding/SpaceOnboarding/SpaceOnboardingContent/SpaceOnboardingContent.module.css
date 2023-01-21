@@ -1,0 +1,9 @@
+ .root {
+   color: #141414 !important;
+   line-height: 1.45;
+ }
+
+.mask {
+  color: black;
+  opacity: 0.3;
+}

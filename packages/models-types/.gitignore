@@ -1,0 +1,12 @@
+#idea
+.idea
+
+#build
+build
+
+# dependencies
+node_modules
+
+# debug
+yarn-debug.log*
+yarn-error.log*

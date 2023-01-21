@@ -1,0 +1,1 @@
+export { softDeletePlugin } from './softDelete';

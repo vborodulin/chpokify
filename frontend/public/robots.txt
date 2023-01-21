@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+Sitemap: https://chpokify.com/sitemap.xml
+Sitemap: https://chpokify.com/community/sitemap-posts.xml
+Sitemap: https://blog.chpokify.com/sitemap-posts.xml

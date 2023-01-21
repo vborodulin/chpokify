@@ -1,0 +1,13 @@
+{
+  "name": "@chpokify/api-schemas",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+  },
+  "dependencies": {
+    "@chpokify/helpers": "0.0.1",
+    "@chpokify/models-types": "0.0.1",
+    "@chpokify/i18n": "0.0.1",
+    "@hapi/joi": "17.1.1"
+  }
+}

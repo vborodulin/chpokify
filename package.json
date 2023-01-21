@@ -1,0 +1,82 @@
+{
+  "name": "chpokify",
+  "description": "The project management tool designed for agile teams",
+  "homepage": "https://chpokify.com",
+  "version": "0.0.1",
+  "repository": "https://gitlab.com/chpokify/main.git",
+  "author": "borodulin <borodulin.dev@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "frontend",
+      "server",
+      "figma",
+      "migrations",
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/frontend",
+      "**/frontend/**"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "frontend": "yarn workspace @chpokify/frontend",
+    "server": "yarn workspace @chpokify/server",
+    "figma": "yarn workspace @chpokify/figma",
+    "clear:modules": "rm -rf ./packages/*/node_modules && rm -rf ./node_modules && rm -rf ./server/node_modules && rm -rf ./frontend/node_modules && rm -rf figma/node_modules",
+    "commit": "git-cz",
+    "client:build": "yarn frontend run build",
+    "client:start": "source scripts/load_env.sh && yarn frontend run start",
+    "client:dev": "source scripts/load_env.sh && yarn frontend run dev",
+    "server:demon": "yarn server run demon",
+    "server:dev": "docker-compose up --build --remove-orphans",
+    "server:build": "webpack --config webpack.config.js",
+    "server:start": "node ./server/build/index.js",
+    "figma:import": "yarn figma run start",
+    "storybook": "yarn frontend run storybook",
+    "storybook:build": "yarn frontend run storybook:build"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.12.10",
+    "@babel/core": "7.12.10",
+    "@babel/plugin-proposal-class-properties": "7.13.0",
+    "@babel/plugin-proposal-optional-chaining": "7.13.12",
+    "@babel/plugin-transform-typescript": "7.12.1",
+    "@babel/preset-env": "7.13.15",
+    "@babel/preset-typescript": "7.13.0",
+    "@sentry/webpack-plugin": "1.15.0",
+    "@typescript-eslint/eslint-plugin": "3.9.1",
+    "@typescript-eslint/parser": "3.10.0",
+    "babel-loader": "8.2.2",
+    "babel-plugin-module-resolver": "4.0.0",
+    "commitizen": "4.1.2",
+    "cz-conventional-changelog": "3.2.0",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb": "18.1.0",
+    "eslint-plugin-better-styled-components": "1.1.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-import-helpers": "1.0.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "2.5.0",
+    "husky": "4.2.5",
+    "pm2": "4.5.0",
+    "prettier-eslint": "9.0.1",
+    "prettier-eslint-cli": "5.0.0",
+    "prettier-stylelint": "0.4.2",
+    "stylelint": "13.2.1",
+    "stylelint-config-idiomatic-order": "8.1.0",
+    "stylelint-config-recommended-scss": "4.2.0",
+    "stylelint-config-standard": "20.0.0",
+    "stylelint-scss": "3.16.0",
+    "webpack": "5.10.1",
+    "webpack-cli": "4.3.1",
+    "webpack-node-externals": "2.5.2"
+  }
+}

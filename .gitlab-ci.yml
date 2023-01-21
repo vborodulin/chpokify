@@ -1,0 +1,167 @@
+image: docker:19.03.1
+services:
+  - docker:19.03.1-dind
+
+variables:
+  DOCKER_DRIVER: overlay2
+
+stages:
+  - deps
+  - build
+  - deploy
+  - test
+
+#cache:
+#  key: ${CI_COMMIT_REF_SLUG}
+#  paths:
+#    - .npm/
+#    - .yarn-offline/
+#    - cache/Cypress/
+#    - node_modules/
+
+#workflow:
+#  rules:
+#    - if: $CI_COMMIT_BRANCH == "master"
+#      when: always
+#    - if: $CI_COMMIT_BRANCH == "dev"
+#      when: always
+#    - when: never
+
+before_script:
+  - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+
+deps:
+  stage: deps
+  script:
+    - >
+      docker build
+      --cache-from $CI_REGISTRY_IMAGE/deps:$CI_COMMIT_BRANCH
+      -f ./gitlab/deps/Dockerfile
+      -t $CI_REGISTRY_IMAGE/deps:$CI_COMMIT_BRANCH
+      -t $CI_REGISTRY_IMAGE/deps:latest .
+    - docker push $CI_REGISTRY_IMAGE/deps
+  needs: []
+  when: manual
+
+build_tilda:
+  stage: build
+  script:
+    - >
+      docker build
+      --cache-from $CI_REGISTRY_IMAGE/tilda:$CI_COMMIT_BRANCH
+      -f ./gitlab/tilda/Dockerfile
+      -t $CI_REGISTRY_IMAGE/tilda:$CI_COMMIT_BRANCH
+      -t $CI_REGISTRY_IMAGE/tilda:latest .
+    - docker push $CI_REGISTRY_IMAGE/tilda
+  needs: []
+  when: manual
+
+build_frontend:
+  stage: build
+  script:
+    - >
+      docker build
+      --cache-from $CI_REGISTRY_IMAGE/frontend:$CI_COMMIT_BRANCH
+      -f ./gitlab/frontend/Dockerfile
+      --build-arg CI_COMMIT_BRANCH=$CI_COMMIT_BRANCH
+      -t $CI_REGISTRY_IMAGE/frontend:$CI_COMMIT_BRANCH
+      -t $CI_REGISTRY_IMAGE/frontend:latest .
+    - docker push $CI_REGISTRY_IMAGE/frontend
+  needs: []
+  when: manual
+
+build_storybook:
+  stage: build
+  script:
+    - >
+      docker build
+      --cache-from $CI_REGISTRY_IMAGE/storybook:$CI_COMMIT_BRANCH
+      -f ./gitlab/storybook/Dockerfile
+      --build-arg CI_COMMIT_BRANCH=$CI_COMMIT_BRANCH
+      -t $CI_REGISTRY_IMAGE/storybook:$CI_COMMIT_BRANCH
+      -t $CI_REGISTRY_IMAGE/storybook:latest .
+    - docker push $CI_REGISTRY_IMAGE/storybook
+  needs: []
+  when: manual
+
+build_server:
+  stage: build
+  script:
+    - >
+      docker build
+      --cache-from $CI_REGISTRY_IMAGE/server:$CI_COMMIT_BRANCH
+      -f ./gitlab/server/Dockerfile
+      --build-arg CI_COMMIT_BRANCH=$CI_COMMIT_BRANCH
+      -t $CI_REGISTRY_IMAGE/server:$CI_COMMIT_BRANCH
+      -t $CI_REGISTRY_IMAGE/server:latest .
+    - docker push $CI_REGISTRY_IMAGE/server
+  needs: []
+  when: manual
+
+build_migrations:
+  stage: build
+  script:
+    - >
+      docker build
+      --cache-from $CI_REGISTRY_IMAGE/migrations:$CI_COMMIT_BRANCH
+      -f ./gitlab/migrations/Dockerfile
+      -t $CI_REGISTRY_IMAGE/migrations:$CI_COMMIT_BRANCH
+      -t $CI_REGISTRY_IMAGE/migrations:latest .
+    - docker push $CI_REGISTRY_IMAGE/migrations
+  needs: []
+  when: manual
+
+deploy_stage:
+  stage: deploy
+  script:
+    - cd /usr/src/app/infrastructure/main/stage
+    - sudo git pull
+    - docker-compose pull
+    - docker-compose down
+    - docker-compose up --build -d
+    - docker system prune -a -f
+  needs: []
+  environment:
+    name: stage
+  tags:
+    - stage
+  when: manual
+
+deploy_prod:
+  stage: deploy
+  script:
+    - cd /usr/src/app/infrastructure/main/prod
+    - sudo git pull
+    - docker-compose pull
+    - docker-compose down
+    - docker-compose up --build -d
+    - docker system prune -a -f
+  only:
+    - master
+  needs: []
+  environment:
+    name: prod
+  tags:
+    - prod
+  when: manual
+
+test_prod:
+  stage: test
+  script:
+    - cd /usr/src/app/acceptance
+    - sudo git pull
+    - docker-compose pull
+    - docker-compose down
+    - docker-compose up --build -d
+    - docker system prune -a -f
+  artifacts:
+    when: always
+    paths:
+      - ./cypress/videos/**/*.mp4
+      - ./cypress/screenshots/**/*.png
+    expire_in: 5 day
+  tags:
+    - prod
+  only:
+    - master
+  when: manual

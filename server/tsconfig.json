@@ -1,0 +1,96 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": false,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictPropertyInitialization": false,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "paths": {
+      "@auth/*": [
+        "domains/auth/*"
+      ],
+      "@core/*": [
+        "core/*"
+      ],
+      "@queue/*": [
+        "queue/*"
+      ],
+      "@queue": [
+        "queue"
+      ],
+      "@domains": [
+        "domains"
+      ],
+      "@domains/*": [
+        "domains/*"
+      ],
+      "@mail/*": [
+        "domains/mail/*"
+      ],
+      "@metrics/*": [
+        "domains/metrics/*"
+      ],
+      "@stats/*": [
+        "domains/stats/*"
+      ],
+      "@models/*": [
+        "models/*"
+      ],
+      "@pokerSessions/*": [
+        "domains/pokerSessions/*"
+      ],
+      "@pokerCardDecks/*": [
+        "domains/pokerCardDecks/*"
+      ],
+      "@routes/*": [
+        "routes/*"
+      ],
+      "@routes": [
+        "routes"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "@jira/*": [
+        "jira/*"
+      ],
+      "@spaces/*": [
+        "domains/spaces/*"
+      ],
+      "@socket/*": [
+        "socket/*"
+      ],
+      "@socket": [
+        "socket"
+      ],
+      "@users/*": [
+        "domains/users/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "../frontend"
+  ]
+}

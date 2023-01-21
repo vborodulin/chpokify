@@ -1,0 +1,11 @@
+{
+  "name": "@chpokify/i18n",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+  },
+  "dependencies": {
+    "@types/node-polyglot": "2.4.1",
+    "node-polyglot": "2.4.0"
+  }
+}

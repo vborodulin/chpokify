@@ -1,0 +1,6 @@
+.git
+node_modules
+Dockerfile
+docker-compose.yml
+.gitlab-ci.yml
+yarn.lock

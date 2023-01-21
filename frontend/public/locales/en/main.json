@@ -1,0 +1,1549 @@
+{
+  "formErrors": {
+    "fillAllFields": "Please fill in all fields",
+    "signUp": {
+      "userName": "{{min}}-{{max}} characters long, no spaces. Use: a-z, A-Z, 0-9, _, -."
+    }
+  },
+  "errors": {
+    "spaceNotFound": "Space not found",
+    "internalError": "Oops, something went wrong. Please reload the page or try again it later."
+  },
+  "common": {
+    "copiedTooltip": "Copied!",
+    "beta": "Beta",
+    "betaTooltip": "Free Beta of this feature included in your plan",
+    "pokerOnly": "Poker only"
+  },
+  "labels": {
+    "you": "you",
+    "guest": "guest"
+  },
+  "notFound": {
+    "codeError": "404",
+    "title": "Page not found",
+    "description": "Sorry, we couldn't find this page.",
+    "homeLink": "Homepage"
+  },
+  "serviceError": {
+    "title": "Sorry, something chpoked wrong :-|",
+    "description": "Please, reload the page. If this error will occur again, please contact us.",
+    "reloadBtn": "Reload page"
+  },
+  "index": {
+  },
+  "pages": {
+    "index": {
+      "intro": {
+        "title": "Planning Poker Online",
+        "desc": "Speed up development process of your agile teams. Play on desktop or mobile.",
+        "tryBtn": "Try Chpokify for free"
+      },
+      "collaborate": {
+        "title": "Start making online estimations today",
+        "item1": {
+          "title": "Spacer for every project or company",
+          "desc": "Just like in Slack – every space is your environment.",
+          "altImg": "spaces"
+        },
+        "item2": {
+          "title": "Teams for everyone",
+          "desc": "Invite and assign people to as many teams as you need.",
+          "altImg": "spaces"
+        },
+        "item3": {
+          "title": "On any device – mobile and desktop",
+          "desc": "Chpokify is available on any platform with browser.",
+          "altImg": "spaces"
+        }
+      },
+      "integrations": {
+        "title": "Connect to all your favorite services"
+      },
+      "howItWorks": {
+        "title": "How it works in details",
+        "registerBlock": {
+          "title": "1. Register and get your own space",
+          "desc": "When you sign up, we create a cozy space for you and your teammates.\n    In that space you will have everything you need to create stories and\n    estimate them. You can have as many spaces you need for different projects or companies.",
+          "actionTitle": "Register for free",
+          "altImg": "register-space"
+        },
+        "inviteBlock": {
+          "title": "2. Invite people and team them up",
+          "desc": "Invite people to your space in a second. No more stuttering registrations for\n        your co-workers – we'll auto-register\n        them by invite. Have a big team? Assign invited people to teams at any time.",
+          "actionTitle": "Create your team",
+          "altImg": "create-team"
+        },
+        "startSessionBlock": {
+          "title": "3. Start session and create stories",
+          "desc": "Create a poker session dedicated to sprint that you've planned and fill it with stories.",
+          "actionTitle": "Start session",
+          "altImg": "create-session"
+        },
+        "voteModerateBlock": {
+          "title": "4. Vote, moderate",
+          "desc": "Control the field. Decide, when and which team is going to vote right now.\n        Got different or wrong results? Discuss with team, take notes and reset or revote if needed.",
+          "actionTitle": "Become a moderator",
+          "altImg": "vote-moderate-space"
+        },
+        "analyzeBlock": {
+          "title": "5. Finalize, analyze",
+          "desc": "Ready to finish sprint estimate session? Nicely done!\n    Create reports of team's progress during the sprints history and review other statistics.",
+          "actionTitle": "Try analyze your team stats",
+          "altImg": "analyze-space"
+        }
+      },
+      "extra": {
+        "title": "Chpokify UI",
+        "darkMode": "Dark mode",
+        "darkModeDesc": " We know that you may work till late, just like we do.\n Therefore, we made a dark mode. Switch to it and keep your eyes healthy.",
+        "designSystem": "Design system",
+        "designSystemDesc": "  With our brand new design-system\n Chpokify UI you&apos;ll get a new level of sensations."
+      }
+    },
+    "space": {
+      "title": "Planning Poker"
+    },
+    "retro": {
+      "title": "Retrospective",
+      "share": "Share retro",
+      "actions": "Actions",
+      "retroHeaderActions": {
+        "shareBtn": "Share",
+        "videoCallBtn": "Join call",
+        "videoOnCall": "On call",
+        "actionsBtn": "Actions"
+      },
+      "retroItem": {
+        "people": "People",
+        "actions": "Actions",
+        "cards": "Cards",
+        "emptyActions": "Add actions inside the session to summarize ideas and make an action plan."
+      },
+      "createNewSession": {
+        "title": "Create a new retrospective session",
+        "placeholder": "Example: Last sprint retrospective",
+        "submitBtn": "Create session"
+      },
+      "settingsSidebar": {
+        "votingTitle": "Voting",
+        "cardsTitle": "Cards",
+        "settings": "Settings",
+        "resetAllVotesBtn": "Reset all votes",
+        "removeSessionBtn": "Delete session"
+      },
+      "settingsSidebarEditForm": {
+        "exportCardsAction": {
+          "tooltip": "Export to CSV"
+        },
+        "isOneVoteCards": {
+          "title": "One vote per card"
+        },
+        "isHiddenVoteCountCards": {
+          "title": "Show vote count"
+        },
+        "maxVotes": {
+          "title": "Max votes per user"
+        },
+        "isHiddenCards": {
+          "disabled": "Blur cards: OFF",
+          "enabled": "Blur cards: ON",
+          "tooltip": "If ON, the cards are blurred. Only card authors can see them.",
+          "tooltipDisabled": "Cards visible for others"
+        },
+        "isEnableVoting": {
+          "enabled": "Voting: ON",
+          "disabled": "Voting: OFF",
+          "tooltip": "Allow voting for any cards"
+        },
+        "canEditCards": {
+          "title": "Only admin can edit cards",
+          "enabled": "Add/edit cards: ON",
+          "disabled": "Add/edit cards: OFF",
+          "tooltip": "Participants can add and edit their cards"
+        },
+        "isHiddenUserNameCards": {
+          "title": "Show card’s author"
+        },
+        "isSortByVotesCount": {
+          "title": "Sort by votes count"
+        },
+        "canMoveCards": {
+          "title": "Only admin move cards"
+        },
+        "isHiddenDescriptionCards": {
+          "title": "Show descriptions"
+        }
+      },
+      "sessionsList": {
+        "title": "Past sessions",
+        "loadMoreBtn": "past sessions"
+      },
+      "votesCard": {
+        "voteBtn": "Vote",
+        "limitTooltip": "You have reached the voting limit."
+      },
+      "createNewSessionModal": {
+        "title": "New retrospective session",
+        "cancelBtn": "Cancel",
+        "submitBtn": "Create session"
+      },
+      "createNewColumnModal": {
+        "title": "Add a column",
+        "titlePlaceholder": "Enter a column name",
+        "nameLabel": "Column name",
+        "cancelBtn": "Cancel",
+        "submitBtn": "Create column"
+      },
+      "editColumnModal": {
+        "title": "Edit column",
+        "titlePlaceholder": "Enter a column name",
+        "cancelBtn": "Cancel",
+        "submitBtn": "Save"
+      },
+      "removeColumnModal": {
+        "title": "Delete a column?",
+        "cancelBtn": "Cancel",
+        "submitBtn": "Delete"
+      },
+      "cardMenu": {
+        "makeAction": "Make an Action",
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "columnMenu": {
+        "edit": "Edit column",
+        "delete": "Delete column"
+      },
+      "cardCreate": {
+        "titlePlaceholder": "Enter card title",
+        "descriptionPlaceholder": "Description (optional)",
+        "cancelBtn": "Cancel",
+        "submitBtn": "Create"
+      },
+      "editCardModal": {
+        "title": "Edit card",
+        "titlePlaceholder": "Enter card title",
+        "descriptionPlaceholder": "Description (optional)",
+        "cancelBtn": "Cancel",
+        "submitBtn": "Save"
+      },
+      "editCardCombinedModal": {
+        "title": "Edit merged card",
+        "labelTitle": "Title",
+        "labelDescription": "Description",
+        "titlePlaceholder": "Enter card title",
+        "descriptionPlaceholder": "Description (optional)",
+        "promptEdit": "Remove or change text lines to change a specific part of the merged card.",
+        "cancelBtn": "Cancel",
+        "submitBtn": "Save"
+      },
+      "removeCardModal": {
+        "title": "Delete a card?",
+        "cancelBtn": "Cancel",
+        "submitBtn": "Delete"
+      },
+      "editSessionModal": {
+        "title": "Edit retrospective session",
+        "cancelBtn": "Cancel",
+        "submitBtn": "Save"
+      },
+      "removeSessionModal": {
+        "title": "Delete a retrospective session?",
+        "cancelBtn": "Cancel",
+        "submitBtn": "Delete"
+      },
+      "resetVotesCardsModal": {
+        "title": "Reset all votes ?",
+        "cancelBtn": "Cancel",
+        "submitBtn": "Reset"
+      },
+      "sessionMenu": {
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "retroSessionPeople": {
+        "title": "People",
+        "teamsBtn": "Teams",
+        "info": "Share link to invite people into the session."
+      },
+      "retroSessionEditTeamsModal": {
+        "title": "Select teams",
+        "description": "Selected teams that will be allowed to participate in this retro session.",
+        "cancelBtn": "Close",
+        "submitBtn": "Continue",
+        "saveBtn": "Save",
+        "teams": "Teams"
+      },
+      "retroSessionEditForm": {
+        "titlePlaceholder": "Title",
+        "descriptionPlaceholder": "Description",
+        "chooseTemplate": "Choose a technique"
+      },
+      "retroSessionTemplates": {
+        "custom": {
+          "title": "Custom",
+          "description": "Focus on a specific topic"
+        },
+        "startStopContinue": {
+          "title": "Start. Stop. Continue.",
+          "description": "Look forward and back"
+        },
+        "madSadGlad": {
+          "title": "Mad. Sad. Glad.",
+          "description": "Discuss how the team feels"
+        },
+        "wentWellGoWell": {
+          "title": "What went well? What didn’t go well?",
+          "description": "Strengths and weaknesses"
+        }
+      },
+      "retroSession": {
+        "forbidden": {
+          "title": "You have no access to retro session",
+          "description": "Ask the moderator to invite you to space and assign to the team which take part in the retro session.",
+          "submitBtn": "Go back"
+        },
+        "empty": "Retro session not found"
+      },
+      "retroColumnActions": {
+        "title": "Actions",
+        "emptyCards": "Add here worthwhile ideas to summarize your session and make an action plan."
+      }
+    },
+    "tasks": {
+      "title": "All tasks"
+    },
+    "sitemap": {
+      "productTitle": "Product",
+      "companyTitle": "Company",
+      "socialTitle": "Social",
+      "guidesTitle": "Guides",
+      "blogTitle": "Blog",
+      "legalTitle": "Legal",
+      "communityTitle": "Community's articles",
+      "communityAndGeneralTitle": "Community's articles / General Advice",
+      "communityAndScrumTitle": "Community's articles / Scrum poker",
+      "communityAndPlanningTitle": "Community's articles / Planning poker",
+      "planningPokerLink": "Planning poker",
+      "agileEcosystem": "Agile Ecosystem",
+      "retro": "Retrospective",
+      "registrationLink": "Registration",
+      "pricesLink": "Pricing",
+      "jiraConnectLink": "JIRA Integration",
+      "privacyPolicyLink": "Privacy Policy",
+      "termsOfUseLink": "Terms of Use",
+      "contactsLink": "Contacts",
+      "pressLink": "Press",
+      "teamLink": "Team",
+      "joinLink": "Join us",
+      "missionLink": "Mission",
+      "discordLink": "Discord",
+      "youtubeLink": "Youtube",
+      "facebookLink": "Facebook",
+      "linkedInLink": "LinkedIn",
+      "planningPokerGuideLink": "Planning poker guide",
+      "saveSprintLink": "How to save time on sprint planning",
+      "200IceLink": "200 icebreakers for your Agile team",
+      "blog": {
+        "article0": "Chpokify Blog",
+        "article1": "About the project approach",
+        "article2": "Advice for novice Scrum masters",
+        "article3": "How to improve your team engagement (guide +template)",
+        "article4": "About planning poker (for the external sources use)",
+        "article5": "Performance Review",
+        "article6": "Why Agile is a mistake. Project Manager's opinion",
+        "article7": "Culture fit and diversity",
+        "article8": "Architectural review of the sprint",
+        "article9": "No rules. Netflix's unique culture",
+        "article10": "The Overview State of Agile from Digital.ai",
+        "article11": "Shared ownership of the code",
+        "article12": "How often do you think about the Tuchman Model?",
+        "article13": "Should a team assign work during sprint planning?",
+        "article14": "Roman Pichler and his Q & A session about product goal in Scrum",
+        "article15": "What does \"task done\" mean? When does the developer's work end?",
+        "article16": "How the retrospective reflects the stage of the team's formation",
+        "article17": "Developer in Discovery: profit for the product",
+        "article18": "Getting a CAPM certificate based on PMBOK 6",
+        "article19": "What can be difficult in the position of an Agile Coach?",
+        "article20": "Developer in Discovery: profit for the developer",
+        "article21": "Development cycle"
+      },
+      "community": {
+        "chpokifyCommunity": "Chpokify Community",
+        "affinityEstimationVsPlanningPoker": "Affinity estimation vs planning poker",
+        "taskPointsVsStoryPoints": "Task points vs story points",
+        "productManagementAdvice": "Product management advice",
+        "benefitsOfScrumPoker": "Benefits of scrum poker",
+        "howToPlayScrumPoker": "How to play scrum poker",
+        "planningPokerScrumMasters": "Planning poker for scrum masters",
+        "scrumPokerOnline": "Scrum poker online",
+        "whatIsScrumPoker": "What is scrum poker",
+        "howToPlayPlanningPoker": "How to play planning poker",
+        "jiraPlanningPoker": "Jira planning poker",
+        "pokerTipsInScrumPlanningPoker": "Poker tips in scrum planning poker",
+        "top5PlanningPokerTools": "Top 5 planning poker tools",
+        "planningPokerEstimation": "What is the planning poker estimation used for",
+        "planningPokerWorks": "Why planning poker works"
+      }
+    }
+  },
+  "header": {
+    "loginBtn": "Log in",
+    "signUpBtn": "Get started",
+    "pricing": "Pricing",
+    "sponsorship": "Sponsorship",
+    "blog": "Blog"
+  },
+  "comingSoon": "Coming soon",
+  "needConfirmEmail": {
+    "title": "Check your email",
+    "description": "To finish registration, please confirm your email. Didn’t receive a link? Use “Resend”.",
+    "successMessage": "Confirmation link sent. Please check your email.",
+    "signOutBtn": "Sign out",
+    "resendBtn": "Resend",
+    "resendWithTimerBtn": "Resend in {{timer}}",
+    "emailResendSuccess": "Confirmation email sent."
+  },
+  "confirmEmailSuccess": {
+    "title": "Email confirmed!",
+    "description": "Thank you! Your email is now confirmed.",
+    "resumeBtn": "Let's go!"
+  },
+  "confirmEmailFail": {
+    "title": "Confirmation isn't successfull",
+    "description": "Confirmation link might be invalid or expired. Please try again.",
+    "tryAgainBtn": "Let's try again"
+  },
+  "forgotPassword": {
+    "title": "Reset password",
+    "description": "Enter you email address and we’ll send you a link to reset your password.",
+    "emailPlaceholder": "Email",
+    "resetBtn": "Reset password",
+    "resendWithTimerBtn": "Resend in {{timer}}",
+    "logInLink": "Log in",
+    "mailSentMessage": "Password restoration link sent, please check your email."
+  },
+  "resetPassword": {
+    "title": "Reset password",
+    "description": "Enter your new password",
+    "passwordPlaceholder": "New password",
+    "repeatPasswordPlaceholder": "Repeat new password",
+    "logInLink": "Log in",
+    "submitBtn": "Set password"
+  },
+  "joinSession": {
+    "title": "Join session",
+    "loginOrSignUpBtn": "Log in or sign up",
+    "joinWithoutRegBtn": "Without registration"
+  },
+  "logInGuest": {
+    "title": "Join session as a guest",
+    "emailInput": {
+      "title": "Your email",
+      "placeholder": "Email",
+      "errorMessage": "This email is already registered. Please <nextLink>log in with password</nextLink> to join the session."
+    },
+    "userNameInput": {
+      "title": "Your guest name"
+    },
+    "teamInput": {
+      "title": "Your team"
+    },
+    "submitBtn": "Join session",
+    "linkBtn": "Log in or sign up as user"
+  },
+  "logIn": {
+    "title": "Log In",
+    "titleInvite": "Log in to accept invite to {{spaceName}}",
+    "descriptionWithLink": "New to Chpokify? <nextLink>Create Free Account</nextLink>",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "signUpBtn": "Sign up",
+    "dividerOAuth": "OR",
+    "logInBtn": "Log in",
+    "forgotPasswordLink": "Forgot password"
+  },
+  "signUp": {
+    "title": "Create Free Account",
+    "titleInvite": "Join Chpokify to accept invite to {{spaceName}}",
+    "descriptionWithLink": "Already have an account? <nextLink>Log In</nextLink>",
+    "usernamePlaceholder": "Username",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "repeatPasswordPlaceholder": "Repeat password",
+    "logInLink": "Log in",
+    "signUpBtn": "Sign up",
+    "successMsg": "Your account created. Please log in.",
+    "dividerOAuth": "OR"
+  },
+  "termsOfUse": {
+    "mainMessage": "By clicking Sign up, you confirm that you've read and agree to our <termsLink>Terms of Service</termsLink> and <privacyLink>Privacy Policy</privacyLink>."
+  },
+  "spaceButtons": {
+    "inviteToSpaceBtn": {
+      "title": "Copy invite link",
+      "tooltipTitle": "Invite link copied"
+    },
+    "createTeam": "Create team"
+  },
+  "members": {
+    "title": "Members",
+    "description": "Invite people to chpokify tasks together.",
+    "inviteBtn": "Invite people"
+  },
+  "teams": {
+    "title": "Teams",
+    "description": "Assign members to your teams to make sprint planning more accurate and department related.",
+    "currTeamBadge": "Team",
+    "emptyDescription": "You don’t have any team yet. "
+  },
+  "createNewSession": {
+    "title": "Create a new poker session",
+    "sessionTitlePlaceholder": "Example: New feature estimation",
+    "submitBtn": "Create session"
+  },
+  "createTeamModal": {
+    "title": "New team",
+    "description": "Create a team and assign members.",
+    "selectMembersLabel": "Assigned members",
+    "teamNamePlaceholder": "Team name",
+    "cancelBtn": "Cancel",
+    "createBtn": "Create team"
+  },
+  "editTeamModal": {
+    "title": "Edit team",
+    "editTeamModal": "Team name",
+    "emptyUsers": "All your members are assigned to other teams. Invite more people to your space or re-assign them from other teams.",
+    "deleteBtn": "Delete",
+    "cancelBtn": "Cancel",
+    "saveBtn": "Save"
+  },
+  "removeTeamActionModal": {
+    "title": "Delete team from space?",
+    "description": "All assigned members will be unassigned. It also may affect your space statistics.",
+    "cancelBtn": "Cancel",
+    "removeBtn": "Delete"
+  },
+  "teamViewModal": {
+    "title": "{{teamName}} team",
+    "description": "Assigned members",
+    "noMembersDescription": "The team has no assigned members.",
+    "cancelBtn": "Done"
+  },
+  "inviteToSpaceModal": {
+    "title": "Invite people to space",
+    "description": "Chpokify is free for up to {{freeUsersCount}} users. When {{paidUsersCount}}th user added, you’ll only be charged after {{trialDaysCount}} days free trial.",
+    "dividerLabel": "OR",
+    "sendInviteLinkTitle": "Invite by link",
+    "sendInviteBtn": "Send invite",
+    "sendInviteEmailTitle": "Invite by email",
+    "emailPlaceholder": "Enter email to send the invitation",
+    "showTeamsSwitcherLabel": "Assign invited user to team",
+    "selectTeamPlaceholder": "Select team to assign to",
+    "successEmailSentHelperText": "Invite to {{email}} sent.",
+    "cancelBtn": "Cancel"
+  },
+  "inviteToSpaceAcceptSuccess": {
+    "title": "Welcome! You are invited to {{spaceName}} space",
+    "titleWithTeam": "Welcome! You are invited to {{spaceName}} space to the team {{teamName}}",
+    "description": "In the space, you will see estimating sessions in which you will participate.",
+    "acceptBtn": "Accept",
+    "cancelBtn": "Cancel"
+  },
+  "inviteToSpaceAcceptFail": {
+    "title": "Invite link to space is expired or invalid",
+    "description": "Please ask the space owner to invite you again.",
+    "cancelBtn": "Cancel"
+  },
+  "inviteToPokerSessionAcceptFail": {
+    "title": "Invite link to pokerSession is expired or invalid",
+    "description": "Please ask the space owner to invite you again.",
+    "cancelBtn": "Cancel"
+  },
+  "userMenu": {
+    "createNewSpaceItem": "Create new space",
+    "darkThemeItem": "Dark theme",
+    "lightThemeItem": "Light theme",
+    "accountSettingsItem": "Account settings",
+    "pokerItem": "Poker",
+    "retroItem": "Retro",
+    "localeItem": "English",
+    "kanbanItem": "Kanban",
+    "integrationsItem": "integrations",
+    "supportItem": "Support",
+    "signOutItem": "Sign out",
+    "spaceAdminLabel": "You're admin",
+    "toogleAdminGuestTooltip": "Sign up as a user to create your own space",
+    "appStoreItem": "App store"
+  },
+  "createSpace": {
+    "title": "Create a new space",
+    "namePlaceholder": "Name",
+    "cancelBtn": "Cancel",
+    "createSpaceBtn": "Create space"
+  },
+  "spaceMenu": {
+    "editItem": "Edit",
+    "leaveItem": "Leave"
+  },
+  "confirmLeaveSpaceModal": {
+    "title": "Leave space?",
+    "description": "You’ll be able to join this space again by invite only. if you are the last admin in the space, the admin rights will be transferred to a random participant.",
+    "cancelBtn": "Cancel",
+    "leaveBtn": "Leave"
+  },
+  "spaceEditModal": {
+    "title": "Overview",
+    "namePlaceholder": "Name",
+    "cancelBtn": "Cancel",
+    "saveBtn": "Save"
+  },
+  "spaceDonation": {
+    "titleOne": "Donate",
+    "titleTwo": "or sponsor",
+    "description": "Help up to make scrum world better!",
+    "actionBtn": "Make piglet happy"
+  },
+  "spaceStatistics": {
+    "title": "Space statistics",
+    "sessionLabel": "Sessions",
+    "storiesLabel": "Tasks",
+    "sessionAverageLabel": "Session average",
+    "storyAverageLabel": "Task average"
+  },
+  "spacePokerSessionItem": {
+    "timeStat": "Time",
+    "teamsStat": "Teams",
+    "ratingStat": "Rating",
+    "cardDeck": "Card deck",
+    "storiesStat": "Tasks",
+    "scoresStat": "Scores"
+  },
+  "usernameSettings": {
+    "title": "Username",
+    "usernamePlaceholder": "Username",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Save"
+  },
+  "passwordSettings": {
+    "title": "Change password",
+    "passwordPlaceholder": "Current password",
+    "newPasswordPlaceholder": "New password",
+    "repeatNewPasswordPlaceholder": "Repeat new password",
+    "fulfilledDescription": "Password has been successful changed!",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Change password"
+  },
+  "emailSettings": {
+    "title": "Email",
+    "emailPlaceholder": "Email",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Save"
+  },
+  "acceptCookies": {
+    "descriptionPartOne": "By using this website, you agree to our",
+    "descriptionPartTwoLink": "Privacy policy",
+    "descriptionPartThree": ". We use cookies to deliver our services.",
+    "submitBtn": "Accept"
+  },
+  "agileMeetup": {
+    "description": "On March 4, join Agile Cyprus meetup in Russian",
+    "linkBtn": "Learn more"
+  },
+  "liveXpEnglish": {
+    "description": "English for IT relocation.",
+    "linkBtn": "Try now"
+  },
+  "votingCard": {
+    "titlePass": "Pass",
+    "titleVoting": "Voting",
+    "titleVoted": "Voted",
+    "notInSession": "Not in session"
+  },
+  "spacesList": {
+    "title": "Available spaces",
+    "emptyDescription": "You have no spaces yet. Create one!",
+    "submitBtn": "Create space"
+  },
+  "participantEditModal": {
+    "title": "Edit member",
+    "teamsLabel": "Member of teams",
+    "removeBtn": "Kick",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Save",
+    "toggleAdmin": "Admin",
+    "toggleTooltip": "Only permanent users can be promoted to admins",
+    "emptyTeams": "You don’t have teams yet. Create one to assign member.",
+    "memberTeams": "Assigned to teams"
+  },
+  "participantRemoveModal": {
+    "title": "Kick user from space?",
+    "description": "The user will be unassigned from any teams he's assigned to and will be kicked out from the current space. It may affect space statistics.",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Kick"
+  },
+  "pokerSessionsList": {
+    "title": "Poker sessions",
+    "emptyDescription": "There are no sessions that you participate in."
+  },
+  "pokerSessionMenu": {
+    "edit": "Edit",
+    "editTeams": "Teams",
+    "remove": "Delete",
+    "exportCSV": "Export"
+  },
+  "pokerSessionEditForm": {
+    "titlePlaceholder": "Title",
+    "descriptionPlaceholder": "Description",
+    "teamsDescription": "Select teams that will participate in this session. You can manage teams during the session as well.",
+    "emptyTeamsDescription": "You have no teams yet. Create one!",
+    "settingsTitle": "Settings",
+    "isAutoRevealLabel": "Auto-reveal cards after everyone has voted",
+    "isVideoCallLabel": "Enable video call for this session",
+    "cardDeckLabel": "Card deck",
+    "createTeamBtn": "Create team"
+  },
+  "pokerSessionCreateModal": {
+    "title": "New session",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Create session"
+  },
+  "pokerSessionEditModal": {
+    "title": "Edit session",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Save"
+  },
+  "pokerSessionRemoveModal": {
+    "title": "Delete session?",
+    "description": "Session and all its tasks will be deleted from your space completely. It may affect space statistics.",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Delete"
+  },
+  "pokerSessionTeamsEditForm": {
+    "description": "Select teams that will participate in this session.",
+    "descriptionEmpty": "You have no teams yet. Create one!"
+  },
+  "pokerSessionTeamsCreateModal": {
+    "title": "Teams in session",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Done"
+  },
+  "pokerSessionTeamsViewModal": {
+    "title": "Teams in session",
+    "description": "Select teams that will participate in this session.",
+    "submitBtn": "Done"
+  },
+  "kanban": {
+    "board": {
+      "empty": "Board not found",
+      "share": "Share board"
+    },
+    "boards": {
+      "title": "Boards",
+      "empty": "Boards not found",
+      "createBtn": "Create board"
+    }
+  },
+  "storiesList": {
+    "empty": "Tasks added in planning poker sessions will appear here."
+  },
+  "pokerSession": {
+    "forbidden": {
+      "title": "You have no access to poker session",
+      "description": "Ask the moderator to invite you to space and assign to the team which take part in the poker session.",
+      "submitBtn": "Go back"
+    },
+    "currentSessionLabel": "Session",
+    "totalTimeLabel": "Total time",
+    "totalScoreLabel": "Total score",
+    "linkBtn": "Share",
+    "addStoryBtn": "Add tasks",
+    "taskStartBtn": "Start task",
+    "sortTasksHighScoreTooltip": "Highest score first",
+    "sortTasksLowScoreTooltip": "Lowest score first",
+    "storyStopBtn": "Done",
+    "teamsBtn": "Teams",
+    "revealAllCardsBtn": "Reveal all cards",
+    "revealCardsBtn": "Reveal cards",
+    "resetTaskBtn": "Reset task",
+    "voteAllBtn": "Vote all",
+    "voteAllCancelBtn": "Stop voting for all teams",
+    "voteBtn": "Vote",
+    "revoteBtn": "Revote",
+    "voteCancelBtn": "Cancel voting",
+    "currentTaskLabel": "Current task",
+    "taskScoreLabel": "Effort points",
+    "tasksLabel": "Tasks",
+    "taskNotSelected": "Task not selected.",
+    "emptyTasksList": "No tasks in session.",
+    "emptyTeamsInSession": "No teams in session",
+    "teamsLabel": "Teams",
+    "teamsScoresLabel": "Team score",
+    "addTeamsBtn": "Add teams",
+    "jira": {
+      "title": "Jira",
+      "errorTitleUp": "Couldn’t export.",
+      "errorTitleDown": "But it’s easy to fix!",
+      "errorContentTxt": "To export the effort to Jira, add the target field to the project’s screen in Jira. To do so, go to the",
+      "errorContentLink": "instructions page",
+      "errorHelpTxt": "If it doesn’t help, you can",
+      "errorHelpLink": "send us a message",
+      "errorBtn": "How to fix?"
+    }
+  },
+  "pokerSessionChooseTeams": {
+    "title": "Teams in session",
+    "desc": "Select teams that will participate in this session. You can manage teams during the session as well.",
+    "createBtn": "Create team",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Continue",
+    "doneBtn": "Done"
+  },
+  "pokerSessionInvite": {
+    "title": "Participants",
+    "desc": "Share the link with your teammates to invite them to your planning poker session.",
+    "copyLinkBtn": "Copy invite link",
+    "submitBtn": "Done",
+    "cancelBtn": "Cancel"
+  },
+  "pokerSessionTeams": {
+    "teamLabel": "Team",
+    "scoreLabel": "Score",
+    "totalScore": "Total score"
+  },
+  "pokerConfirmRevealModal": {
+    "title": "Reveal cards?",
+    "description": "Not all members of “{{teamName}}” team have voted yet.",
+    "submitBtn": "Reveal",
+    "cancelBtn": "Cancel"
+  },
+  "pokerSessionStoriesRating": {
+    "title": "Feedback on the session",
+    "switcher": "Rate anonymously",
+    "comment": "Comment",
+    "anonymTxt": "Anonym",
+    "resultTxt": "Result",
+    "cancelBtn": "Skip",
+    "submitBtn": "Rate",
+    "launchRatingBtn": "Launch rating",
+    "launchRatingBtnWithTimer": "Launch rating {{timer}}",
+    "closeBtn": "Close",
+    "commentText": "What do you think of the session?",
+    "ratingText": "How was your moral during the session?",
+    "feedBack": "Feedback",
+    "askToRate": "Ask to rate",
+    "emptyFeedBackTxt": "No feedback given on this session yet.",
+    "infoTxt": "Click the “Launch rating” button to start rating for every team member."
+  },
+  "pokerSessionFeedbackRating": {
+    "anonymous": "Anonymous",
+    "skipped": "skipped"
+  },
+  "pokerSessionStoriesListModal": {
+    "title": "Tasks",
+    "cancelBtn": "Cancel"
+  },
+  "storyEditForm": {
+    "titlePlaceholder": "Task"
+  },
+  "storiesAddModal": {
+    "tabFreeformInput": "Freeform input",
+    "tabImportFromJira": "Import from Jira",
+    "tabCreate": "Create",
+    "tabIntegrations": "Integrations",
+    "title": "Add tasks",
+    "connectedToJira": "Connect your Atlassian Jira project and import tasks in a few clicks",
+    "connectedToJiraBtn": "Connect Jira",
+    "useJira": "Use Jira connection",
+    "jiraAccount": "Jira account",
+    "jiraProject": "Project",
+    "goToSettingsSessionsBtn": "Go to session settings",
+    "connectedJiraNotUseInSession": "Enable Jira in the session settings to be able to import tasks",
+    "freeformInput": {
+      "description": "To add several tasks at once, put each one in a new line. You can add and edit tasks anytime.",
+      "placeholderMobile": "Paste or write multiple tasks using new line delimiter",
+      "placeholder": "Paste or write multiple tasks using new line delimiter, example:\nTask 1\nTask 2\nTask 3\n",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Create"
+    }
+  },
+  "storiesIntegrationImport": {
+    "description": "You can add and edit stories anytime.",
+    "systemLabel": "Select a system",
+    "domainLabel": "Select Jira account",
+    "projectLabel": "Select a project",
+    "selectJiraField": "Select a field to paste effort from Chpokify to Jira",
+    "jqlLabel": "Paste or input JQL",
+    "useDifferentProject": "Unable to import tasks from different project. Please choose this project in session settings and try again.",
+    "useEmptyProject": "Please indicate the project in your JQL",
+    "jqlPlaceholder": "Example: project = CHPOK AND Sprint = 1",
+    "jqlEmptyHint": "Leave it empty to import last 50 tasks from backlog.",
+    "backlogItem": "Backlog (first 200 tasks)",
+    "getStartedJql": "Learn about Advanced Search and JQL",
+    "connectJira": "How to connect JIRA?",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Import"
+  },
+  "jiraAddFieldToScreen": {
+    "title": "How to add custom fields to the project’s Screens in Jira?",
+    "aboutAddJira": "To export the effort to Jira, add the target field to the project’s screen in Jira. To do so, follow the instructions below. If it doesn’t help, you can",
+    "aboutAddJiraBtn": "send us a message",
+    "step1": {
+      "title": "1. Click “Settings” > “Tasks”."
+    },
+    "step2": {
+      "title": "2. Under “FIELDS” click “Custom fields”."
+    },
+    "step3": {
+      "title": "3. Find the custom field and click “Associate to Screens”.",
+      "alternatively": "3.1 Alternatively, you can click a field's contexts link and then click “Screens” > “Associate this field to screens”."
+    },
+    "step4": {
+      "title": "4. Check the screens on which you want to display this custom field, and click “Update”."
+    },
+    "successDone": "After everything’s done, export to Jira should work just fine. If it still doesn’t,"
+  },
+  "cardDecks": {
+    "title": "Card decks",
+    "defaultDecks": "Default decks",
+    "customDecks": "Custom decks",
+    "createCustomDecksBtn": "Create custom deck",
+    "editCustomDecksBtn": "Edit custom deck",
+    "editModal": {
+      "title": "Edit custom card deck",
+      "saveBtn": "Save",
+      "cancelBtn": "Cancel"
+    },
+    "createModal": {
+      "title": "Create custom card deck",
+      "enableLableText": "Enter labels to display on your cards in-game, then associate a value with each label to calculate scores.",
+      "inputTitle": "Deck title",
+      "label": "Label",
+      "value": "Value",
+      "addCardInputBtn": "Add card",
+      "createBtn": "Create",
+      "cancelBtn": "Cancel",
+      "tooltip": "Name the deck, cards and specify values"
+    },
+    "deleteModal": {
+      "title": "Delete Card deck?",
+      "submitBtn": "Delete",
+      "cancelBtn": "Cancel"
+    }
+  },
+  "integrations": {
+    "jira": "JIRA"
+  },
+  "pokerSessionStoryCreateModal": {
+    "title": "Create story",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Create story"
+  },
+  "pokerSessionStoryEditModal": {
+    "title": "Edit task",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Save",
+    "removeBtn": "Remove"
+  },
+  "pokerSessionStoryRemoveModal": {
+    "title": "Delete task",
+    "description": "Do you want to delete task? It may affect space statistics.",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Delete"
+  },
+  "pokerSessionTeam": {
+    "emptyDescription": "No members assigned."
+  },
+  "footer": {
+    "description": "Scrum management tools for agile teams.",
+    "allRights": "© {{year}} Chpokify. Scrum tools for agile teams. For remote teams, by a remote team. All rights reserved.",
+    "planningPoker": "Planning Poker",
+    "howToPlayPokerLik": "How to play Planning Poker?",
+    "whatChpokifyLink": "What's Chpokify?",
+    "productTitle": "Product",
+    "pricesLink": "Pricing",
+    "sitemapLink": "Sitemap",
+    "helpTitle": "Help",
+    "supportLink": "Support",
+    "eventsLink": "Events",
+    "contactUsLink": "Contact us",
+    "reportBugLink": "Report bug",
+    "leaveFeedbackLink": "Leave feedback",
+    "privacyPolicyLink": "Privacy Policy",
+    "donateLink": "Donate",
+    "resourcesTitle": "Resources",
+    "blogLink": "Blog",
+    "communityLink": "Community",
+    "howToConnectJiraLink": "How to connect JIRA?",
+    "saveTimeOfEstimationsLink": "Planning Poker",
+    "retroLink": "Retrospective",
+    "agileEcosystemLink": "Agile Ecosystem",
+    "companyTitle": "Company",
+    "pressLink": "Press",
+    "teamLink": "Team",
+    "joinLink": "Join",
+    "integrationsLink": "Integrations",
+    "purposeLink": "Purpose",
+    "icebreakerQuestionsLink": "200 icebreaker questions",
+    "termsOfUseLink": "Terms of Use"
+  },
+  "pokerUserCard": {
+    "userOffline": "User is not in the session"
+  },
+  "sponsorship": {
+    "donate": {
+      "title": "Donate",
+      "description": "You can support Chpokify by donating any amount of money. Please choose the suiting method below.",
+      "paypalBtn": "PayPal",
+      "revolutBtn": "Revolut"
+    },
+    "sponsor": {
+      "title": "Sponsorship",
+      "description": "We are also looking for sponsor. Please contact us via email.",
+      "sendEmailBtn": "Send email"
+    }
+  },
+  "addToHomeScreen": {
+    "title": "Easy access Chpokify –\nadd it to Home screen",
+    "cancelBtn": "Later",
+    "submitBtn": "Add to home screen"
+  },
+  "freeBetaAccessPricing": {
+    "title": "Free Beta Access",
+    "planBadge": "your current plan",
+    "availableUntil": "Available until release. Then you’ll be switched to Small team plan.",
+    "pokerModuleName": "Scrum poker",
+    "unlimitedSeatsCondition": "Unlimited seats",
+    "unlimitedTeamsCondition": "Unlimited teams",
+    "seatPerMonth": "seat/month",
+    "signUpBtn": "Create a Free Account"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "lifeTime": "Lifetime",
+    "lifeTimeSale": "100% OFF",
+    "descriptionSale": "Subscribe now and save this discount forever",
+    "pricingValue": "<priceOld/><priceNew/>"
+  },
+  "sitemap": {
+    "title": "Sitemap"
+  },
+  "accountSettings": {
+    "title": "Account settings"
+  },
+  "paymentsBtns": {
+    "donate": "Donate"
+  },
+  "topDonors": {
+    "title": "Top donations",
+    "description": "Reach the top of the leaderboard!"
+  },
+  "userWelcome": {
+    "title": "Welcome to Chpokify!",
+    "player": {
+      "title": "Are you a player?",
+      "description": "Request an invite link from your moderator."
+    },
+    "moderator": {
+      "title": "Are you a moderator?",
+      "description": "Create space to invite teammates!"
+    }
+  },
+  "spaceCreateBtn": {
+    "title": "Create space"
+  },
+  "googleAuthBtn": {
+    "logIn": {
+      "title": "Continue with Google"
+    },
+    "signUp": {
+      "title": "Continue with Google"
+    },
+    "cookieNotEnabledError": "To continue with Google please exit from private mode, turn off ad blockers and enable third parties cookies in your browser."
+  },
+  "appleAuthBtn": {
+    "logIn": {
+      "title": "Continue with Apple"
+    },
+    "signUp": {
+      "title": "Continue with Apple"
+    }
+  },
+  "kanbanThumb": {
+    "title": "Create your first board",
+    "description": "Boards visually depict work at various stages of a process using cards to represent work items and columns to represent each stage of the process."
+  },
+  "retroThumb": {
+    "title": "Retro is in development",
+    "description": "We appreciate your interest to our new module, and we’re sure that you’ll have fun when its released!\n\nYou can support us while waiting."
+  },
+  "spaceOnboarding": {
+    "menuItem": "Tutorial",
+    "step": [
+      {
+        "content": "🎉 Welcome to your freshly made space! Please allow to demonstrate what you can do here. You can skip tutorial any time and get back to it later (or never). \uD83D\uDE80 Get started!\n"
+      },
+      {
+        "content": "Here you see all the people in your space. It's only you here. Feeling \uD83D\uDE25 lonely?\n"
+      },
+      {
+        "content": "Let's invite someone! Click the button to send invites.\n"
+      },
+      {
+        "content": "Invite people via email or by sending them an invite link. Fun fact: invite via email is the easiest way for people to join since they only need to create password for their account. Alright, send a link or email invitation to your teammates. ✉️"
+      },
+      {
+        "content": "Here you see all the teams in your space. ⛹️ Teams is the best way to organise people. For example, you can create teams according to your company structure: Front-end, Back-end, QA, etc."
+      },
+      {
+        "content": "Okay, it's time for a new team! Click the button to create one.\n"
+      },
+      {
+        "content": "Create first team. Name your team and assign people to it. Assign yourself if you're going to vote along with the others. As an \uD83D\uDC51 administrator, you can spectate and manage any session without being a part of a team. Members can play only when they are part of a team.\n"
+      },
+      {
+        "content": "Click on the team to edit it and re-assign people any time. Even during a poker session.\n"
+      },
+      {
+        "content": "\uD83D\uDD79️ Ready to play? Click the button to create a new session. \n"
+      },
+      {
+        "content": "Name your session (or don't) and add description if needed.\n"
+      },
+      {
+        "content": "Teams are essential to play poker. Select those that will participate in the session."
+      }
+    ]
+  },
+  "pokerCardStsDefault": {
+    "fibonacci": {
+      "name": "Fibonacci"
+    },
+    "tShirts": {
+      "name": "T-Shirts"
+    },
+    "modifiedFibonacci": {
+      "name": "Modified Fibonacci"
+    },
+    "linear": {
+      "name": "Linear"
+    },
+    "progression": {
+      "name": "Progression"
+    },
+    "precision": {
+      "name": "Precision"
+    },
+    "idealDays": {
+      "name": "Ideal days"
+    }
+  },
+  "integrationsSpacePromo": {
+    "intergationsList": {
+      "title": "Existing integrations",
+      "requestBtn": "Request integration"
+    },
+    "title": "Integrations",
+    "description": "Connect software to your Chpokify account to be able to import/export tasks from there.",
+    "jiraBtn": "Atlassian Jira",
+    "slackBtn": "Slack",
+    "tooltipSlack": "This feature is coming soon"
+  },
+  "jiraIntegration": {
+    "title": "How to connect JIRA to Chpokify?",
+    "videoTitle": "How to connect JIRA to Chpokify?",
+    "teamAssist": {
+      "one": "Chpokify team will gladly assist you to set up your JIRA. ",
+      "link": "Send a message",
+      "two": " so we can arrange video call (Eastern European Time Zone)."
+    },
+    "contactAdministrator": "You will need to contact or be an administrator of your JIRA system in order to complete this integration. If you are not an administrator of your JIRA instance you can share the values and the instructions below. Remember to add your JIRA URL at the bottom of this page to link the account once you have completed the setup in JIRA.",
+    "step1": {
+      "title": "1. Create and set up JIRA application link",
+      "adminSettings": "1.1 As JIRA administrator, go to “Settings”, then “Application links”.",
+      "enterUrl": "1.2 Enter the Application URL then press “Create new link”.",
+      "pressContinue": "1.3 In the “Configure Application URL” modal window just press “Continue”.",
+      "fillNameNadType": "1.4 In the “Link applications” modal window copy and paste Chpokify to Application Name and choose Generic Application (usually selected by default), and then press “Continue”.",
+      "hint": "There will be other fields on this form in JIRA but ignore those for now.",
+      "applicationUrl": "Application URL",
+      "applicationName": "Application Name",
+      "applicationType": "Application Type"
+    },
+    "step2": {
+      "title": "2. Incoming authentications settings",
+      "clickPencil": "2.1 After completeing the first step, you’ll see the “Chpokify” line appeared in the table. Click pencil icon on the right.",
+      "configure": "2.2 In the “Configure Chpokify” modal window select “Incoming Authentication” and copy and paste all the settings below, and then press “Save”. Keep in mind that this modal window has many options, so you have to scroll down to see them.",
+      "consumerKey": "Consumer Key",
+      "consumerName": "Consumer Name",
+      "publicKey": "Public Key",
+      "consumerCallbackUrl": "Consumer Callback URL"
+    },
+    "step3": {
+      "title": "3. Link JIRA to Chpokify",
+      "description": "Paste your JIRA URL (ex: https://myaccount.atlassian.net) and finally press “Link”.",
+      "linkPlaceholder": "Required",
+      "linkBtn": "Link JIRA to Chpokify"
+    },
+    "existingIntegrations": {
+      "title": "Existing JIRA Integrations",
+      "removeBtn": "Remove",
+      "refreshBtn": "Refresh",
+      "refreshNowBtn": "Refresh now",
+      "noContent": "You have no jira integrations yet."
+    }
+  },
+  "jiraCallback": {
+    "success": {
+      "title": "JIRA successfully connected!",
+      "description": "Page will be closed after {{seconds}} seconds..."
+    },
+    "fail": {
+      "description": "Page will be closed after {{seconds}} seconds..."
+    }
+  },
+  "keepmailCallback": {
+    "success": {
+      "title": "Keepmail successfully connected!",
+      "description": "Page will be closed after {{seconds}} seconds..."
+    },
+    "fail": {
+      "description": "Page will be closed after {{seconds}} seconds..."
+    }
+  },
+  "pokerVotingScoresBanner": {
+    "title": "Your card",
+    "emptyCard": "—",
+    "changeCardBtn": "Change card"
+  },
+  "fileDownloaded": "Your file has downloaded!",
+  "sponsorshipPage": {
+    "title": "Donation and sponsorship"
+  },
+  "privacyPolicyPage": {
+    "title": "Privacy Policy"
+  },
+  "pokerExportCSVBtn": {
+    "title": "Export"
+  },
+  "sentryDebugPage": {
+    "title": "Sentry debug page"
+  },
+  "kanbanColumnAdd": {
+    "title": "Add column"
+  },
+  "kanbanTask": {
+    "addedBy": "Added by"
+  },
+  "taskMenu": {
+    "edit": "Edit task",
+    "delete": "Delete task"
+  },
+  "kanbanColumnMenu": {
+    "edit": "Edit column",
+    "delete": "Delete column"
+  },
+  "kanbanBoardMenu": {
+    "edit": "Edit board",
+    "delete": "Delete board"
+  },
+  "kanbanBoardEditModal": {
+    "title": "Edit board",
+    "namePlaceholder": "Enter a board name",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Save"
+  },
+  "kanbanBoardRemoveModal": {
+    "title": "Delete a board?",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Delete"
+  },
+  "kanbanColumnAddModal": {
+    "title": "Add a column",
+    "nameLabel": "Column name",
+    "namePlaceholder": "Enter a column name (To Do, In Progress, Done)",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Create column"
+  },
+  "kanbanColumnEditModal": {
+    "title": "Edit column",
+    "nameLabel": "Column name",
+    "namePlaceholder": "Enter a column name (To Do, In Progress, Done)",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Save"
+  },
+  "kanbanColumnRemoveModal": {
+    "title": "Delete a column?",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Delete"
+  },
+  "kanbanTaskCreate": {
+    "cancelBtn": "Cancel",
+    "submitBtn": "Create task",
+    "titlePlaceholder": "Enter task title",
+    "descriptionPlaceholder": "Enter task description"
+  },
+  "kanbanTaskEditModal": {
+    "title": "Edit task",
+    "nameLabel": "Task name",
+    "titlePlaceholder": "Enter task title",
+    "descriptionPlaceholder": "Enter description title",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Save"
+  },
+  "kanbanTaskRemoveModal": {
+    "title": "Delete a task?",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Delete"
+  },
+  "paymentSettings": {
+    "title": "Billing",
+    "emptyDescription": "You have no any subscriptions or payments.",
+    "description": "Go to customer portal to manage your subscription and billing functionality."
+  },
+  "customerPortalBtn": {
+    "title": "Manage subscription"
+  },
+  "kanbanBoardCreateModal": {
+    "title": "Create a new board",
+    "titleLabel": "Name",
+    "titlePlaceholder": "Enter a board name",
+    "cancelBtn": "Cancel",
+    "submitBtn": "Create"
+  },
+  "kanbanBoardForm": {
+    "nameField": {
+      "label": "Board name",
+      "placeholder": "Board name"
+    },
+    "descriptionField": {
+      "label": "Description"
+    }
+  },
+  "storiesMenuItem": {
+    "title": "Tasks"
+  },
+  "storiesListFilter": {
+    "newIssueBtn": "New issue",
+    "allLabel": "All"
+  },
+  "sideBarCollapse": {
+    "title": "Collapse menu"
+  },
+  "sideBarClose": {
+    "title": "Close menu"
+  },
+  "sideBarKanban": {
+    "title": "Kanban"
+  },
+  "sideBarPoker": {
+    "title": "Planning Poker"
+  },
+  "sideBarRetro": {
+    "title": "Retro"
+  },
+  "sideBarTask": {
+    "title": "Tasks"
+  },
+  "sideBarFaq": {
+    "title": "FAQ"
+  },
+  "sideBarIntegrations": {
+    "title": "Integrations"
+  },
+  "sideBarSettings": {
+    "title": "Space settings"
+  },
+  "sideBarTutorial": {
+    "title": "Space tour"
+  },
+  "spacesListMenuWithBtn": {
+    "title": "Spaces"
+  },
+  "spaceSettingsLeave": {
+    "description": "Space name"
+  },
+  "spaceSettingsPage": {
+    "titleSettings": "Space settings"
+  },
+  "spaceSettingsDangerZone": {
+    "title": "Leave this space",
+    "description": "Once you leave a space, you’ll be able to join this space again by invite only. if you are the last admin in the space, the admin rights will be transferred to a random participant.",
+    "leaveBtn": "Leave this space"
+  },
+  "paymentSubscription": {
+    "addressForInvoices": "Address for invoices",
+    "members": "Members",
+    "paymentPerUser": "Payment per user",
+    "created": "Created",
+    "interval": "Interval",
+    "status": "Subscription status",
+    "trialing": "Trial ends {{in}}"
+  },
+  "paymentEncrypted": {
+    "description": "Data is encrypуted and securely processed by Stripe"
+  },
+  "paymentRequiredModal": {
+    "title": "Your team has grown!",
+    "description": "Upgrade and continue rocking!",
+    "hint": "Chpokify is free for up to {{freeUsersCount}} users. When {{paidUsersCount}}th user added, you’ll only be charged after {trialDaysCount} days free trial.",
+    "cancelBtn": "Not now",
+    "submitBtn": "Continue"
+  },
+  "paymentMembersPrice": {
+    "members": "{{count}} members",
+    "freeTrial": "{{count}} days free trial",
+    "perUser": "per user\n/ month"
+  },
+  "paymentSuccess": {
+    "title": "Plan upgraded!",
+    "description": "Thank you, {{username}}.",
+    "submitBtn": "Go to dashboard"
+  },
+  "pricingPlan": {
+    "title": "Plan",
+    "yourPlan": "your plan",
+    "yourCurrentPlan": "Your current plan",
+    "createFreeAccountBtn": "Create free account",
+    "startFreeTrialBtn": "Start free trial",
+    "manageSubscription": "Manage subscription",
+    "updateBillingInfo": "Update billing info",
+    "updatePaymentMethod": "Update payment method",
+    "trustedByTheBest": "Trusted by the best",
+    "trustedByTheBestImgAlt": "Our clients",
+    "cancelSubscription": "Cancel subscription",
+    "getInTouchBtn": "Get in touch",
+    "downgrade": "Downgrade",
+    "upgrade": "Upgrade",
+    "getInTouchText": "Get in touch to get the price",
+    "subscribe": "Subscribe",
+    "haveEnterprise": "I have 20+ teammates",
+    "customPricing": "Custom pricing",
+    "customIntegrations": "Custom integrations",
+    "customFeatures": "Custom features",
+    "hint": "Chpokify is free for up to {{freeUsersCount}} users. When {{paidUsersCount}}th user added, you’ll only be charged after {{trialDaysCount}} days free trial.",
+    "switcher": {
+      "month": "Billed monthly",
+      "year": "Billed yearly",
+      "extraSale": "<extraSaleTxt>(extra</extraSaleTxt><extraSale>20%</extraSale><extraSaleTxt>OFF)</extraSaleTxt>"
+    },
+    "unlimited": "Unlimited",
+    "players": "users",
+    "teams": "teams",
+    "perMonth": "per month",
+    "perYear": "per year",
+    "priceYear": "<helperText>per month,</helperText><basePrice>${{basePrice}}</basePrice><helperText>${{newPrice}} per year</helperText>",
+    "basicFree": "Basic – Free",
+    "featuresTitle": "Features",
+    "features": {
+      "basicPlan": "Basic plan features",
+      "teamPlan": "Team plan features",
+      "proPlan": "Pro plan features",
+      "jiraIntegration": "Jira integration",
+      "retroIntegration": "Chpokify Retro integration",
+      "videoCalls": "Video calls",
+      "multiTeamsVoting": "Multi teams voting",
+      "multiTeamsPlayers": "Multi teams for players",
+      "multiAdminsMode": "Multi admins mode",
+      "customCardDecks": "Custom card decks",
+      "supportPriority": "Support priority",
+      "unlimitedUsers": "Unlimited users",
+      "unlimitedTeams": "Unlimited teams",
+      "personalCareAgent": "Personal care agent",
+      "serverBasedSolution": "Server-based solution",
+      "customFeatures": "Custom features",
+      "customIntegrations": "Custom integrations",
+      "sevenCardDecks": "7 card decks",
+      "guestMode": "Guest mode",
+      "editTeamScore": "Editable team score",
+      "unlimitedSessions": "Unlimited sessions",
+      "spaceStatistic": "Space statistic",
+      "editSessionScore": "Editable session score"
+    },
+    "help": {
+      "textUp": "Need something different?",
+      "textDown": "We’re open."
+    },
+    "planPeriodEnd": "{{plan}} trial ends {{in}}",
+    "upgradePlan": {
+      "title": "Upgrade to {{plan}} plan to get access to this and other features"
+    },
+    "downGradeModal": {
+      "title": "Downgrade plan?",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Downgrade"
+    },
+    "cancelSubscriptionModal": {
+      "title": "We’re sorry to see you go",
+      "ratingText": "How are you satisfied with our product in general?",
+      "commentText": "If there’s something else you would like to say, add a comment:",
+      "causeText": "Please share why you decided to cancel your subscription?",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Proceed to cancelation",
+      "causes": {
+        "first": "It’s expensive",
+        "second": "It wasn’t working properly",
+        "third": "I didn’t find funcionality I was looking for"
+      }
+    }
+  },
+  "termsPage": {
+    "title": "Terms and conditions"
+  },
+  "trialLabel": {
+    "title": "{{daysCount}} days free trial"
+  },
+  "pricingPlanSmallTeam": {
+    "price": "Free",
+    "title": "Small Team up to {{count}} users"
+  },
+  "pricingPlanBusiness": {
+    "title": "Business {{count}}+ users",
+    "perUserPerMonth": "per user\n/ month"
+  },
+  "pricingPlanEnterprise": {
+    "title": "Enterprise {{count}}+ users",
+    "perMonth": "/ month",
+    "customPrice": "Custom"
+  },
+  "paymentFree": {
+    "members": "Members",
+    "monthlyPayment": "Monthly payment",
+    "description": "Chpokify is free for up to {{freeUsersCount}} users. When {{paidUsersCount}}th user added, you’ll only be charged after {{trialDaysCount}} days free trial.",
+    "upgradeBtn": "Upgrade",
+    "paymentPerUser": "Payment per user",
+    "freeStatus": "Free up to {{freeUsersCount}} members",
+    "unlockUnlimitedSeatsBtn": "Unlock unlimited seats"
+  },
+  "checkoutBtn": {
+    "title": "Checkout"
+  },
+  "subscriptionProblemModal": {
+    "title": "Check your subscription",
+    "description": "Something suspended your subscription, please review",
+    "usersCount": "{{usersCount}} users",
+    "sessionCount": "{{sessionsCount}} sessions",
+    "storiesCount": "{{storiesCount}} tasks",
+    "continueBtn": "Continue",
+    "cancelBtn": "Not now"
+  },
+  "paymentStatusBtn": {
+    "subscriptionRequired": "Subscription needs action",
+    "subscriptionProblem": "Subscription needs action",
+    "upgrade": "Upgrade",
+    "trial": "Trial ends {{in}}"
+  },
+  "pokerJoinCallBtn": {
+    "joinCall": "Join call",
+    "onCall": "On call"
+  },
+  "pokerVideoCall": {
+    "title": "Video call"
+  },
+  "contactSalesBtn": {
+    "title": "Contact sales"
+  },
+  "dataEncrypted": {
+    "description": "All your data is encrypted and securely stored"
+  }
+}

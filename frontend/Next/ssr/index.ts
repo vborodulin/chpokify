@@ -1,0 +1,9 @@
+export { getInitialPropsRetroSessionsPage } from './retroSessionsPage';
+export { getInitialPropsRetroSessionPage } from './retroSessionPage';
+export { getInitialPropsTasksListPage } from './tasksListPage';
+export { getInitialPropsPokerSessionPage } from './pokerSessionPage';
+export { getInitialPropsSpacePage } from './spacePage';
+export { getInitialPropsKanbanBoardPage } from './kanbanBoardPage';
+export { getInitialPropsKanbanPage } from './kanbanPage';
+export { getInitialPropsSpacePricingPage } from './spacePricingPage';
+export { getInitialPropsSpaceSettingsPage } from './spaceSettingsPage';

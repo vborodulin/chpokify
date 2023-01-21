@@ -1,0 +1,38 @@
+{
+  "index": {
+    "title": "Chpokify | Planning Poker | Essential Sprint Planning Kit",
+    "description": "Chpokify is a digital poker card game designed to help agile and scrum development teams effectively set their sprint goals through planning"
+  },
+  "pricing": {
+    "title": "Chpokify Pricing | Sprint Planning Poker",
+    "description": "Enjoy the Free Planning Poker Software. Sign up Today to Start Getting Useful bits of Advice on How to Rock the Sprint Planning of Agile Teams"
+  },
+  "login": {
+    "title": "Sign-in | Sprint Planning App | Chpokify",
+    "description": "Login to Create a New Session and Streamline Your Sprints Today. Improve the Agile Team Development Process with Ease. Save Your Time with Chpokify ⏱️"
+  },
+  "signUp": {
+    "title": "Create Free Account | Essential Sprint Planning Kit | Chpokify",
+    "description": "Chpokify is a deadlocks solver, time saver, and a perfect suit to your sprint planning process. The registration is free"
+  },
+  "privacy": {
+    "title": "Privacy Policy | Chpokify | Essential Sprint Planning Kit",
+    "description": "Our privacy policy on the consumer side. Contact us in case if you're concerning about something related to your privacy"
+  },
+  "terms": {
+    "title": "Terms of Use | Chpokify | Essential Sprint Planning Kit",
+    "description": "By creating an account and using Chpokify, you agree to our Terms of Use, as outlined on this page."
+  },
+  "jiraConnect": {
+    "title": "Jira integration | Planning Poker App",
+    "description": "Import Issues, Stories, and Tasks Right From Your Jira Account Without Leaving Session. Conduct Effective Planning Poker Estimations with Chpokify"
+  },
+  "jiraAddFieldToScreen": {
+    "title": "Export effort points to Jira | Planning Poker App",
+    "description": "Follow these steps to change which screens your custom field is associated with in your Jira."
+  },
+  "sitemap": {
+    "title": "Sitemap | Planning Poker App",
+    "description": "The sitemap helps you navigate to chpokify"
+  }
+}

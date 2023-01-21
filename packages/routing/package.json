@@ -1,0 +1,10 @@
+{
+  "name": "@chpokify/routing",
+  "license": "MIT",
+  "version": "0.0.1",
+  "scripts": {
+  },
+  "dependencies": {
+    "@chpokify/helpers": "0.0.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@chpokify/models-types",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "@chpokify/helpers": "0.0.1",
+    "bson": "4.1.0",
+    "stripe": "8.152.0"
+  }
+}

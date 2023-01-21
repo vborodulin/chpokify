@@ -1,0 +1,28 @@
+import base from 'paths.macro';
+import React from 'react';
+
+import { IconAddUser } from '@components/uiKit/Icons';
+import { ListItem } from '@components/uiKit/ListItem';
+import { ListItemText } from '@components/uiKit/ListItemText';
+
+import { getStoryName } from '@lib/getStoryName';
+
+import { ListItemAdornment } from './index';
+
+export default {
+  title: getStoryName(base),
+};
+
+export const Default = () => (
+  <ListItem
+    isButton
+  >
+    <ListItemAdornment>
+      <IconAddUser />
+    </ListItemAdornment>
+
+    <ListItemText>
+      Add user
+    </ListItemText>
+  </ListItem>
+);

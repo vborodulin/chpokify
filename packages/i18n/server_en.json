@@ -1,0 +1,283 @@
+{
+  "schemas": {
+    "authGuest": {
+      "teamId": {
+        "string.empty": "There is not a single command in the session, ask the admin to create and repeat again"
+      }
+    },
+    "auth": {
+      "password": {
+        "string.empty": "Please enter password.",
+        "string.pattern.base": "Should be %{min}-%{max} characters long. Do not use spaces"
+      },
+      "username": {
+        "string.empty": "Please enter username.",
+        "string.pattern.base": "{{min}}-{{max}} characters long, no spaces. Use: a-z, A-Z, 0-9, _, -."
+      },
+      "confirmEmailToken": {
+        "string.empty": "Link is invalid. Please resend a confirmation link."
+      },
+      "resetPasswordToken": {
+        "string.empty": "Link is invalid. Please reset password again."
+      },
+      "email": {
+        "string.empty": "Please enter email.",
+        "string.email": "The email does’t look correct."
+      }
+    },
+    "story": {
+      "title": {
+        "string.max": "Should be max %{max} characters long.",
+        "string.empty": "Please enter title."
+      },
+      "description": {
+        "string.max": "Should be max %{max} characters long."
+      }
+    },
+    "space": {
+      "name": {
+        "string.min": "Name should be %{min}-%{max} characters long.",
+        "string.max": "Name should be %{min}-%{max} characters long.",
+        "string.empty": "Please enter name."
+      },
+      "inviteToken": {
+        "string.empty": "Link is invalid. Please ask the space owner to invite you again."
+      }
+    },
+    "team": {
+      "name": {
+        "string.min": "Name should be %{min}-%{max} characters long.",
+        "string.max": "Name should be %{min}-%{max} characters long.",
+        "string.empty": "Please enter name."
+      }
+    },
+    "participant": {
+      "inviteToken": {
+        "string.empty": "Invite token can not be empty."
+      },
+      "teamsIds": {
+        "array.empty": "Must contain at least 1 values"
+      }
+    },
+    "kanban": {
+      "column": {
+        "title": {
+          "string.empty": "Please enter title."
+        }
+      }
+    },
+    "pokerCardDeck": {
+      "title": {
+        "string.empty": "Name the card deck."
+      },
+      "cards": {
+        "array.empty": "Cards must contain at least 4 values",
+        "value": {
+          "number.empty": "Specify the value",
+          "number.maxValue": "Specify the value should be 1-999."
+        },
+        "label": {
+          "string.empty": "Name the card."
+        }
+      }
+    },
+    "pokerSession": {
+      "title": {
+        "string.min": "Title should be %{min}-%{max} characters long.",
+        "string.max": "Title should be %{min}-%{max} characters long."
+      },
+      "description": {
+        "string.min": "Description should be min %{min} character long.",
+        "string.max": "Description should be max %{max} character long."
+      },
+      "inviteToken": {
+        "string.empty": "Link is invalid. Please ask the space owner to invite you again."
+      }
+    },
+    "jiraIntegration": {
+      "baseUrl": {
+        "string.empty": "Your JIRA URL can not be empty.",
+        "string.pattern.base": "URL is invalid. Check if you added https://"
+      },
+      "jql": {
+        "string.max": "Should be max %{max} characters long."
+      }
+    },
+    "retroSession": {
+      "inviteToken": {
+        "string.empty": "Link is invalid. Please ask the space owner to invite you again."
+      }
+    }
+  },
+  "errors": {
+    "internalError": "Oops, something went wrong. Please reload the page or try again it later.",
+    "invalidObjectId": "Id is invalid.",
+    "notImplemented": "Method is not implemented.",
+    "tooManyRequests": "Too many requests. Please again it later.",
+    "tooManyRequestsWithRemaining": "Too many requests. Please wait %{distance}.",
+    "forbidden": "You've no permission to do this action.",
+    "forbiddenJira": "You've no permission to jira.",
+    "upgradeAccountToJira": "Upgrade account to use Jira",
+    "upgradeAccountToVideoCall": "Upgrade account to use Video call",
+    "upgradeAccountToVideoCallAndJira": "Upgrade account to use Jira and Video call",
+    "upgradeAccountToMultiAdmins": "Upgrade account to use Multi admins mode",
+    "upgradeAccountToCreateTeam": "Upgrade account to Create team",
+    "upgradeAccountToInviteParticipants": "Upgrade account to invite participants",
+    "limitInviteParticipants": "Admin should upgrade their space to allow you to join this session",
+    "forbiddenVideoCall": "You've no permission to video call.",
+    "forbiddenVideoCallAndJira": "You've no permission to video call and jira.",
+    "serverIsShuttingDown": "Server is shutting down.",
+    "session": {
+      "notFound": "Session not found"
+    },
+    "kanbanBoardRelations": {
+      "duplicated": "KanbanBoardRelations is already exists.",
+      "notFound": "KanbanBoardRelations not found."
+    },
+    "retroRelations": {
+      "notFound": "Retro relations not found.",
+      "cards": {
+        "notFound": "Retro relations cards not found."
+      }
+    },
+    "user": {
+      "invalidId": "User id is invalid",
+      "duplicated": "User is already exists.",
+      "notFound": "User not found.",
+      "emailAlreadyExists": "Email already exists.",
+      "usernameAlreadyExists": "Username already exists."
+    },
+    "updateSpaceParticipantsIdsInvalid": "Invalid one of participants id.",
+    "teamNotFound": "Team not found.",
+    "storyNotFound": "Story not found.",
+    "participantNotFound": "Participant not found.",
+    "kanbanBoard": {
+      "notFound": "KanbanBoard not found.",
+      "invalidId": "KanbanBoard id is invalid.",
+      "columns": {
+        "array.empty": "Cards must contain at least 4 values"
+      },
+      "column": {
+        "notFound": "KanbanColumn not found.",
+        "invalidId": "KanbanColumn id is invalid."
+      },
+      "task": {
+        "notFound": "Task not found.",
+        "invalidId": "Task id is invalid."
+      }
+    },
+    "space": {
+      "invalidId": "Space id is invalid.",
+      "invite": {
+        "invalidToken": "Invite link is expired or invalid. Please ask the space owner to invite you again."
+      },
+      "notFound": "Space not found."
+    },
+    "team": {
+      "invalidId": "Team id is invalid."
+    },
+    "participant": {
+      "invalidId": "Participant id is invalid.",
+      "notFound": "Participant not found."
+    },
+    "story": {
+      "invalidId": "Story id is invalid."
+    },
+    "pokerCardDeck": {
+      "invalidId": "Card deck id is invalid.",
+      "notFound": "Card deck not found.",
+      "hasUsePokerSession": "Card deck use in pokerSession."
+    },
+    "pokerSession": {
+      "invalidId": "Poker session id is invalid.",
+      "notFound": "Poker session not found.",
+      "teamNotInPokerSession": "Team is not in session.",
+      "storyNotActive": "Story is inactive.",
+      "storyActive": "You already have an active story.",
+      "storyNotVoting": "Story is not voting.",
+      "storyVoting": "Voting is already in progress.",
+      "teamNotVotingStory": "Team is not voting in this story.",
+      "teamVotingStory": "Team is already voting in this story.",
+      "invite": {
+        "invalidToken": "Invite link is expired or invalid. Please ask the space owner to invite you again."
+      }
+    },
+    "auth": {
+      "notAuthorized": "You are not authorized, please login again.",
+      "invalidSignIn": "Email or password is invalid.",
+      "sessionExpired": "Your session is expired, need login again.",
+      "resetPasswordInvalid": "Password is invalid.",
+      "resetPassword": {
+        "invalidToken": "Reset password link is invalid. . Please resend a reset link.",
+        "tokenUserNotFound": "User not found."
+      },
+      "confirmEmail": {
+        "tokenInvalid": "Confirmation link is expired or invalid. Please resend a confrimation link.",
+        "tokenUserNotFound": "User not found."
+      },
+      "validateResetPasswordToken": {
+        "invalidToken": "Reset password link is expired or invalid. . Please resend a reset link."
+      },
+      "guest": {
+        "forbidden": "This email is already registered. Please log in with password to join the session."
+      }
+    },
+    "jiraIntegration": {
+      "noConnectedDomain": "JIRA domain is not connected to Chpokify. Go to integration settings and follow instructions."
+    },
+    "jiraOauth": {
+      "common": "This account is not connected yet. Please check that the instructions are followed correctly or contact us by %{supportEmail}. JIRA error code: %{error}.",
+      "notFoundUrl": "Can't connect to the provide JIRA url. Please check the correctness."
+    },
+    "jiraApi": {
+      "common": "Couldn’t import from JIRA. Please try again. If it happens again, please contact us by %{supportEmail}. JIRA error code: %{error}.",
+      "auth": "Couldn’t import because of JIRA auth problem. Refresh your JIRA connection in integrations settings. If it won’t help, contact us by %{supportEmail}. JIRA error code: %{error}.",
+      "tokenRejected": "Jira connection expired.",
+      "fieldNotScreen": "Can’t be pasted to this field. Please add it to your project’s screens in Jira first."
+    },
+    "paymentSubscription": {
+      "invalidId": "Subscription id is invalid.",
+      "invalidItemId": "Subscription item id is invalid.",
+      "notFound": "Subscription is not found.",
+      "customer": {
+        "notFound": "Customer is not found"
+      }
+    },
+    "retroSession": {
+      "invalidId": "Retro session id is invalid.",
+      "notFound": "Retro session not found.",
+      "invite": {
+        "invalidToken": "Invite link is expired or invalid. Please ask the space owner to invite you again."
+      }
+    },
+    "retroCard": {
+      "invalidId": "Retro card id is invalid.",
+      "notFound": "Retro card not found.",
+      "invalidMaxVotes": "You used all %{maxVotes} of your votes!"
+    },
+    "retroSessionTemplate": {
+      "invalidId": "Retro template id is invalid.",
+      "notFound": "Retro template not found.",
+      "invalidType": "Retro template type is invalid.",
+      "column": {
+        "invalidId": "Retro template column id is invalid.",
+        "notFound": "Retro template column not found.",
+        "notFoundAction": "Retro template action column not found."
+      }
+    }
+  },
+  "emails": {
+    "welcome": {
+      "subject": "Welcome to Chpokify!"
+    },
+    "spaceInvite": {
+      "subject": "Accept invite to space %{spaceName}"
+    },
+    "passwordReset": {
+      "subject": "Reset password"
+    },
+    "signUpConfirmation": {
+      "subject": "Sign up confirmation"
+    }
+  }
+}

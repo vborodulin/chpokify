@@ -1,0 +1,15 @@
+#idea
+.idea
+
+# dependnedcies
+node_modules
+
+# local env files
+.env
+yarn-error.log
+.DS_Store
+
+
+# local projects
+docker-compose.yml
+nginx/conf.d/sites-enabled/default

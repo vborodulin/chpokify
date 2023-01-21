@@ -1,0 +1,85 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDirs": [
+      "."
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "target": "es6",
+    "outDir": "build",
+    "module": "esnext",
+    "sourceMap": true,
+    "inlineSources": true,
+    "sourceRoot": "/",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "jsx": "preserve",
+    "declaration": false,
+    "paths": {
+      "@api": [
+        "api"
+      ],
+      "@api/*": [
+        "api/*"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "@Redux/*": [
+        "Redux/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@constants": [
+        "constants.ts"
+      ],
+      "@helpers/*": [
+        "helpers/*"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@lib": [
+        "lib"
+      ],
+      "@styles": [
+        "styles"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@Next": [
+        "Next"
+      ],
+      "@Next/*": [
+        "Next/*"
+      ]
+    },
+    "noEmit": true,
+    "incremental": true,
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
