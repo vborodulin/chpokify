@@ -1,0 +1,106 @@
+version: "3"
+
+services:
+  tilda:
+    container_name: chpokify-tilda
+    build:
+      dockerfile: ./gitlab/tilda/DockerfileM1
+      context: .
+
+  mongodb:
+    container_name: chpokify-mongo
+    image: mongo:4.0-xenial
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
+    command: mongod --port $MONGO_PORT
+    env_file:
+      - .env
+    ports:
+      - "${MONGO_PORT}:${MONGO_PORT}"
+    volumes:
+      - mongodb_data_container:/data/db
+
+  migrations:
+    container_name: chpokify-migrations
+    env_file:
+      - .env
+    depends_on:
+      - mongodb
+    build:
+      context: .
+      dockerfile: migrations/Dockerfile
+
+  maildev:
+    container_name: chpokify-maildev
+    image: maildev/maildev
+
+  redis:
+    container_name: chpokify-redis
+    image: redis:6.0.1-alpine
+    env_file:
+      - .env
+    command: redis-server --port $REDIS_PORT
+    ports:
+      - "${REDIS_PORT}:${REDIS_PORT}"
+    volumes:
+      - redis_data_container:/data
+
+  server:
+    container_name: chpokify-server
+    depends_on:
+      - mongodb
+      - redis
+      - migrations
+    build:
+      context: .
+      dockerfile: ./server/Dockerfile
+    env_file:
+      - .env
+    volumes:
+      - api-schemas_node_modules:/home/packages/api-schemas/node_modules
+      - ./packages/api-schemas:/home/packages/api-schemas
+      - models-types_node_modules:/home/packages/models-types/node_modules
+      - ./packages/models-types:/home/packages/models-types
+      - helpers_node_modules:/home/packages/helpers/node_modules
+      - ./packages/helpers:/home/packages/helpers
+      - routing_node_modules:/home/packages/routing/node_modules
+      - ./packages/routing:/home/packages/routing
+      - i18n_node_modules:/home/packages/i18n/node_modules
+      - ./packages/i18n:/home/packages/i18n
+      - server_node_modules:/home/server/node_modules
+      - ./server/:/home/server/
+
+  nginx:
+    container_name: chpokify-nginx
+    image: nginx:1.21.4
+    depends_on:
+      - server
+    env_file:
+      - .env
+    environment:
+      - CLIENT_PORT=3000
+      - SERVER_PORT=${APP_PORT}
+    ports:
+      - 443:443
+    command: >
+      /bin/bash -c "envsubst \"`for v in $$(compgen -v);do printf '$${%s} ' $$v;done`'\"
+      < /var/www/html/docker/conf.d/nonpermanent.link.tpl
+      > /etc/nginx/conf.d/default.conf
+      && nginx -g 'daemon off;'"
+    volumes:
+      - nginx_data_container:/var/www/html
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/mime.types:/etc/nginx/mime.types
+      - ./nginx:/var/www/html/docker
+
+volumes:
+  mongodb_data_container:
+  redis_data_container:
+  routing_node_modules:
+  i18n_node_modules:
+  api-schemas_node_modules:
+  models-types_node_modules:
+  helpers_node_modules:
+  server_node_modules:
+  nginx_data_container:
